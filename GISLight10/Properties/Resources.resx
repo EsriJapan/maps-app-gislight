@@ -1,0 +1,1192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FormSpatialSearch_ERROR_CheckLayer" xml:space="preserve">
+    <value>レイヤの選択状態確認の処理に失敗しました。</value>
+  </data>
+  <data name="FormRemoveJoin_WARNING_NoSrcLayer" xml:space="preserve">
+    <value>結合元レイヤを選択してください。</value>
+  </data>
+  <data name="FormLabelSetting_ERROR_FiledAdd" xml:space="preserve">
+    <value>ラベル フィールドの追加処理に失敗しました。</value>
+  </data>
+  <data name="FormRelate_WARNING_CantOpenDestTable" xml:space="preserve">
+    <value>リレート先テーブルを開く処理に失敗しました。</value>
+  </data>
+  <data name="FormGeometryCalculate_Unit_Cm" xml:space="preserve">
+    <value>センチメートル [cm]</value>
+  </data>
+  <data name="FormSymbolSettings_ErrorWhen_ButtonUpdatePreview_Click" xml:space="preserve">
+    <value>プレビュー更新処理に失敗しました。</value>
+  </data>
+  <data name="FromSplitAndMergeSetting_ERROR_FormLoad" xml:space="preserve">
+    <value>スプリット・マージ設定のフォームのロード処理に失敗しました。</value>
+  </data>
+  <data name="FormOptionSettings_ERROR_DeleteTemporaryFile" xml:space="preserve">
+    <value>テンポラリファイルの削除の処理に失敗しました。</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Georeference" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Georeference.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GenericWarning16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GenericWarning16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormDefineFieldNameAlias_ErrorWhenUpdateFileldAlias" xml:space="preserve">
+    <value>フィールド名変換処理に失敗しました。</value>
+  </data>
+  <data name="FormAddAndDeleteField_AF_QUESTION_NoTextLength" xml:space="preserve">
+    <value>長さ が入力されていないため、デフォルト値で設定します。
+フィールドの追加を続行しますか?</value>
+  </data>
+  <data name="FormGeometryCalculate_UnitLabel_Km" xml:space="preserve">
+    <value>km</value>
+  </data>
+  <data name="FormLabelSetting_Point_CenterRight" xml:space="preserve">
+    <value>右優先</value>
+  </data>
+  <data name="FormExportShapeFile_WARNING_ReplaceFile" xml:space="preserve">
+    <value> はすでに存在します。
+置き換えますか?</value>
+  </data>
+  <data name="OpenDataSource_Error" xml:space="preserve">
+    <value>データソースの設定に失敗しました。</value>
+  </data>
+  <data name="FormEditOption_WARNING_StreamGroupingCount" xml:space="preserve">
+    <value>グループ化する頂点数に</value>
+  </data>
+  <data name="FormGeometryCalculate_UnitLabel_SqKm" xml:space="preserve">
+    <value>km2</value>
+  </data>
+  <data name="InsertPictureCommandWarningMessagePicureElementIsMax" xml:space="preserve">
+    <value>挿入可能なピクチャーオブジェクトの数が制限数に達しています。
+その為、処理を中断します。</value>
+  </data>
+  <data name="FormAddAndDeleteField_DF_WARNING_RequireField" xml:space="preserve">
+    <value>少なくとも1つのフィールドが必要なため削除できません。</value>
+  </data>
+  <data name="FormOptionSettings_ERROR_InvalidSettingFile" xml:space="preserve">
+    <value>設定ファイルが不正です。
+正常な設定ファイルを配置してください。</value>
+  </data>
+  <data name="FormManageHyperlinks_WARNING_NoField" xml:space="preserve">
+    <value>ハイパーリンクを設定できるフィールドが存在しません。</value>
+  </data>
+  <data name="FormRelate_WARNING_SameRelateName" xml:space="preserve">
+    <value>入力したリレート名はすでに使用されています。
+リレート名を変更してください。</value>
+  </data>
+  <data name="FormLabelSetting_Line_CurveBelow" xml:space="preserve">
+    <value>ラインに沿って下方</value>
+  </data>
+  <data name="FormRelate_WARNING_NoSrcLayer" xml:space="preserve">
+    <value>リレート元レイヤを選択してください。</value>
+  </data>
+  <data name="menuDataAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menuDataAdd.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormRelate_WARNING_NoRelateName" xml:space="preserve">
+    <value>リレート名を入力してください。</value>
+  </data>
+  <data name="AttrJoinCancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AttrJoinCancel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormRemoveJoin_WARNING_NoDestTable" xml:space="preserve">
+    <value>結合先テーブルを選択してください。</value>
+  </data>
+  <data name="MainForm_WhenLoad" xml:space="preserve">
+    <value>ロード処理に失敗しました。</value>
+  </data>
+  <data name="FomAttributeSearch_ErrorWhenButtonApply" xml:space="preserve">
+    <value>選択条件が正しくありません。選択条件の見直しをしてください。</value>
+  </data>
+  <data name="FormAddAndDeleteField_FN_ChangeFieldName" xml:space="preserve">
+    <value>" に変更しますか?</value>
+  </data>
+  <data name="FormOptionSettings_WARNING_GoodPerformance" xml:space="preserve">
+    <value> より大きい値が指定されました。
+機能を使用する際に少し時間がかかる場合があります。
+設定を行いますか?</value>
+  </data>
+  <data name="FormAttributeSearch_WhenAddCriteria" xml:space="preserve">
+    <value>条件文に文字列を設定する処理に失敗しました。</value>
+  </data>
+  <data name="MainForm_MessageWait" xml:space="preserve">
+    <value>しばらくお待ち下さい。</value>
+  </data>
+  <data name="MainForm_ErrorWhenMapControlMouseDown" xml:space="preserve">
+    <value>マップ上でのマウスクリック時の処理に失敗しました。</value>
+  </data>
+  <data name="FormRelate_WARNING_NoSrcKeyField" xml:space="preserve">
+    <value>リレート元レイヤのキー フィールドを選択してください。</value>
+  </data>
+  <data name="MainFrom_WhenEnded" xml:space="preserve">
+    <value>GISLight Ver2.0 終了</value>
+  </data>
+  <data name="FormDefineFieldNameAlias_ErrorWhenInit" xml:space="preserve">
+    <value>フィールド名別名変換処理の初期化処理に失敗しました。</value>
+  </data>
+  <data name="FormAddAndDeleteField_FN_NewFieldName" xml:space="preserve">
+    <value>
+自動的にフィールド名を "</value>
+  </data>
+  <data name="InvokeExportMapHelper_RunningMessage" xml:space="preserve">
+    <value>マップのエクスポート処理実行中です。</value>
+  </data>
+  <data name="FormAddAndDeleteField_AF_WARNING_EditingLock" xml:space="preserve">
+    <value>他のアプリケーション/ユーザが編集中のため、フィールドの追加処理に失敗しました。</value>
+  </data>
+  <data name="InsertPictureCommand_ErrorWhenInsertPicture" xml:space="preserve">
+    <value>レイアウトオブジェクトの挿入の処理に失敗しました。</value>
+  </data>
+  <data name="FormLabelSetting_Point_BelowCenter" xml:space="preserve">
+    <value>下優先</value>
+  </data>
+  <data name="FormExportShapeFile_ERROR_ExportFailed" xml:space="preserve">
+    <value>フィーチャクラスへのエクスポート処理に失敗しました。</value>
+  </data>
+  <data name="InvokeExportMapHelper_EndedNormal" xml:space="preserve">
+    <value>エクスポートマップ：正常終了しました。</value>
+  </data>
+  <data name="FormGeometryCalculate_Unit_M" xml:space="preserve">
+    <value>メートル [m]</value>
+  </data>
+  <data name="MainForm_ErrorWhenSetPlusInItemOnClicked" xml:space="preserve">
+    <value>プラグイン実行処理に失敗しました。</value>
+  </data>
+  <data name="FormRemoveJoin_QUESTION_RemoveOKorNO" xml:space="preserve">
+    <value>現在のテーブル結合の前に追加されたテーブル結合を解除しようとしています。
+もし継続する場合は、後に追加されたテーブル結合すべてが解除されます。
+
+このテーブル結合の解除を続行しますか？</value>
+  </data>
+  <data name="FormJoinTable_ERROR_DoJoinTable" xml:space="preserve">
+    <value>テーブル結合の実行処理に失敗しました。</value>
+  </data>
+  <data name="FormSpatialSearch_SO_NONE" xml:space="preserve">
+    <value>新規選択セットを作成します。</value>
+  </data>
+  <data name="FormAddAndDeleteField_AF_WARNING_MaxAliasNameLength" xml:space="preserve">
+    <value>エイリアス名 が長すぎるため無効です。
+下記範囲内の長さで指定することができます。
+</value>
+  </data>
+  <data name="FormAttributeTable_InfoWhenDisplayDataTimeOver" xml:space="preserve">
+    <value>１ページでの表示処理の時間制限を超えました。</value>
+  </data>
+  <data name="FormRemoveRelate_ERROR_DoRemoveRelate" xml:space="preserve">
+    <value>リレート解除の実行処理に失敗しました。</value>
+  </data>
+  <data name="FormLabelSetting_Polygon_Straight" xml:space="preserve">
+    <value>直線</value>
+  </data>
+  <data name="FormOptionSettings_ERROR_Initialize" xml:space="preserve">
+    <value>オプション設定フォームのロード処理に失敗しました。</value>
+  </data>
+  <data name="FormAddAndDeleteField_ERROR_AddField" xml:space="preserve">
+    <value>フィールドの追加処理に失敗しました。</value>
+  </data>
+  <data name="FormDefineFieldNameAlias_WarningAliasNameSpaceOrNull" xml:space="preserve">
+    <value>別名に空白が指定されたフィールド、または未入力のフィールドについては
+別名定義が行われません。
+続行しますか？</value>
+  </data>
+  <data name="FormRelate_WARNING_JoinTextAndInt" xml:space="preserve">
+    <value>データ型が異なるキー フィールド同士のリレートはできません。</value>
+  </data>
+  <data name="MainForm_EndMessage" xml:space="preserve">
+    <value>終了しました。</value>
+  </data>
+  <data name="FormRemoveRelate_WARNING_NotHasRelate" xml:space="preserve">
+    <value>リレートを持つレイヤが存在しません。</value>
+  </data>
+  <data name="FormJoinTable_WARNING_NotExistDestTable" xml:space="preserve">
+    <value>結合先テーブルが存在しません。</value>
+  </data>
+  <data name="FormRemoveRelate_WARNING_NoSrcLayer" xml:space="preserve">
+    <value>リレート元レイヤを選択してください。</value>
+  </data>
+  <data name="FormManageHyperlinks_ERROR_FormOpenFailed" xml:space="preserve">
+    <value>ハイパーリンクの設定のフォームのロード処理に失敗しました。</value>
+  </data>
+  <data name="FormRemoveJoin_ERROR_GetDestTables" xml:space="preserve">
+    <value>結合先テーブルの取得処理に失敗しました。</value>
+  </data>
+  <data name="FormRelate_WARNING_BadRelateName" xml:space="preserve">
+    <value>リレート名に \ / : * ? " &lt; &gt; | は使用できません。</value>
+  </data>
+  <data name="FormDataFrameProjection_ERROR_SetDataFrameProjection" xml:space="preserve">
+    <value>座標系の設定に失敗しました。</value>
+  </data>
+  <data name="FormLabelSetting_Line_CurveOnTop" xml:space="preserve">
+    <value>ラインに沿う</value>
+  </data>
+  <data name="FormJoinTable_ERROR_GetDesrKeyField" xml:space="preserve">
+    <value>結合先テーブルのキー フィールド取得処理に失敗しました。</value>
+  </data>
+  <data name="FormRelate_WARNING_NotExistDestTable" xml:space="preserve">
+    <value>リレート先テーブルが存在しません。</value>
+  </data>
+  <data name="FormAttributeTable_ErrorWhenHighLightGeometry" xml:space="preserve">
+    <value>選択レコードのジオメトリをハイライトする処理に失敗しました。</value>
+  </data>
+  <data name="FormAddAndDeleteField_AF_WARNING_FieldNameContainsDoubleQuotes" xml:space="preserve">
+    <value>フィールド名に " を含めることはできません。</value>
+  </data>
+  <data name="FormDefineFieldNameAlias_ErrorWhenReadCsvFile" xml:space="preserve">
+    <value>フィールド名定義テーブルの内容が不正です。
+フィールド名定義テーブルの内容をご確認ください。</value>
+  </data>
+  <data name="FormEditOption_WARNING_SnapTolerance" xml:space="preserve">
+    <value>スナップ許容値に</value>
+  </data>
+  <data name="FormExportShapeFile_WARNING_NoFeild" xml:space="preserve">
+    <value>エクスポート対象フィールドを選択してください。</value>
+  </data>
+  <data name="FormOptionSettings_WARNING_OutOfRange" xml:space="preserve">
+    <value> を設定することができません。
+下記の範囲内で指定することができます。
+</value>
+  </data>
+  <data name="FormGeometryCalculate_WARNING" xml:space="preserve">
+    <value>面積・長さ計算を実行すると、結果を元に戻せません。続けますか？</value>
+  </data>
+  <data name="FormAttributeTable_ErrorWhenButtonPrevious_Click" xml:space="preserve">
+    <value>前へボタンの処理に失敗しました。</value>
+  </data>
+  <data name="FormAddAndDeleteField_AF_WARNING_MaxFieldNum" xml:space="preserve">
+    <value>フィールド数が最大のためフィールドを追加できません。</value>
+  </data>
+  <data name="FormSpatialSearch_NOT_SELECTED_LAYER" xml:space="preserve">
+    <value>選択レイヤを選択してください。</value>
+  </data>
+  <data name="MainForm_ErrorWhenLayerAdd" xml:space="preserve">
+    <value>レイヤの追加に失敗しました。</value>
+  </data>
+  <data name="FormDefineFieldNameAlias_ErrorFileldAliasIsNull" xml:space="preserve">
+    <value>フィールド名別名が未入力です。
+未入力のまま登録は出来ません。</value>
+  </data>
+  <data name="FormSelectableLayerSettings_ERROR_Initialize" xml:space="preserve">
+    <value>選択可能レイヤの設定フォームのロード処理に失敗しました。</value>
+  </data>
+  <data name="FormGeometryCalculate_Property_Length" xml:space="preserve">
+    <value>長さ</value>
+  </data>
+  <data name="FormAddAndDeleteField_FT_SmallInteger" xml:space="preserve">
+    <value>Short Integer</value>
+  </data>
+  <data name="SplitPolylineEditTask_ERROR_DoSplit" xml:space="preserve">
+    <value>ラインのスプリット処理に失敗しました。</value>
+  </data>
+  <data name="FormGeometryCalculate_UnitLabel_SqM" xml:space="preserve">
+    <value>m2</value>
+  </data>
+  <data name="FormSpatialSearch_ERROR_SpatialSearch" xml:space="preserve">
+    <value>空間検索の処理に失敗しました。</value>
+  </data>
+  <data name="MainForm_ErrorWhenDataAdd" xml:space="preserve">
+    <value>カタログ以外からのデータ追加は行えません。</value>
+  </data>
+  <data name="FormLabelSetting_Point_AboveLeft" xml:space="preserve">
+    <value>左上優先</value>
+  </data>
+  <data name="FormGeometryCalculate_UnitLabel_A" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="FormGeometryCalculate_Property_Area" xml:space="preserve">
+    <value>面積</value>
+  </data>
+  <data name="FormAttributeTable_ErrorWhenButtonNext_Click" xml:space="preserve">
+    <value>次へボタンの処理に失敗しました。</value>
+  </data>
+  <data name="FormJoinTable_WARNING_NoDestTable" xml:space="preserve">
+    <value>結合先テーブルを選択してください。</value>
+  </data>
+  <data name="FormSymbolSettings_ErrorWhenSymbolColorSetting" xml:space="preserve">
+    <value>色の設定処理に失敗しました。</value>
+  </data>
+  <data name="FormRemoveJoin_WARNING_NotHasJoin" xml:space="preserve">
+    <value>テーブル結合を持つレイヤが存在しません。</value>
+  </data>
+  <data name="GenericExclamation_B_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GenericExclamation_B_16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormSymbolSettings_UniqueValueDataNotFound" xml:space="preserve">
+    <value>選択されているレイヤにはデータが存在しませんので、 個別値分類の処理はできません。</value>
+  </data>
+  <data name="FromSplitAndMergeSetting_ERROR_BadPolicySetting" xml:space="preserve">
+    <value>編集ポリシーの設定ファイルに不正なパラメータ値が設定されています。</value>
+  </data>
+  <data name="FormEditOption_ERROR_Load" xml:space="preserve">
+    <value>編集オプションのフォームのロード処理に失敗しました。</value>
+  </data>
+  <data name="AddGroupLayerCommand_Error_AddGroupLayer" xml:space="preserve">
+    <value>グループ レイヤの追加処理に失敗しました。</value>
+  </data>
+  <data name="FormSymbolSettings_Warning_UniuqueValue_MaxCount" xml:space="preserve">
+    <value>個別値のデータ件数が
+オプション設定画面で設定されているシンボル設定の個別値分類の最大分類数{0}件に達しました。
+全データ件数{1}件中の{0}件まで処理を行います。
+必要があれば、オプション設定画面でシンボル設定の個別値分類の最大分類数を調節してください。</value>
+  </data>
+  <data name="FormRemoveJoin_ERROR_GetSrcLayers" xml:space="preserve">
+    <value>結合元レイヤの取得処理に失敗しました。</value>
+  </data>
+  <data name="FormGeometryCalculate_WARNING_WarkspaceLocked" xml:space="preserve">
+    <value>他のアプリケーション/ユーザが使用中のため、面積・長さ計算処理に失敗しました。</value>
+  </data>
+  <data name="FormAddAndDeleteField_FT_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="FormAddAndDeleteField_AF_WARNING_MaxStringLength" xml:space="preserve">
+    <value>長さ が大きすぎるため無効です。
+下記範囲内で指定することができます。
+</value>
+  </data>
+  <data name="FormOptionSettings_WARNING_ResetSettingFile" xml:space="preserve">
+    <value>設定ファイルをリセットしますか?</value>
+  </data>
+  <data name="FormSymbolSettings_ErrorWhen_tabControl1_SelectedIndexChanged" xml:space="preserve">
+    <value>シンボル設定タブ切り替え時の処理に失敗しました。</value>
+  </data>
+  <data name="AtttrTotal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AtttrTotal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormDataFrameProjection_WARNING_SelectProjection" xml:space="preserve">
+    <value>座標系を選択してください。</value>
+  </data>
+  <data name="FormSymbolSettings_ErrorWhen_numericUpDownSimpleSymbolOutLineWidth_ValueChanged" xml:space="preserve">
+    <value>シンボルアウトラインサイズ変更処理に失敗しました。</value>
+  </data>
+  <data name="FormExportShapeFile_WhenExporting" xml:space="preserve">
+    <value>フィーチャクラスへのエクスポート処理中です。</value>
+  </data>
+  <data name="FormSpatialSearch_TITLE" xml:space="preserve">
+    <value>空間検索</value>
+  </data>
+  <data name="FormAddAndDeleteField_DF_QUESTION_SelectedField" xml:space="preserve">
+    <value>
+現在の選択フィールド "</value>
+  </data>
+  <data name="FormSpatialSearch_SO_UNION" xml:space="preserve">
+    <value>現在の選択セットに追加します。</value>
+    <comment>esriSetUnion</comment>
+  </data>
+  <data name="CommonMessage_OptionSetting_ERROR_ValueCantWrite" xml:space="preserve">
+    <value>設定ファイルの書き込み処理に失敗しました。
+</value>
+  </data>
+  <data name="FormAddAndDeleteField_FT_Integer" xml:space="preserve">
+    <value>Long Integer</value>
+  </data>
+  <data name="FormAttributeSearch_WhenLoad" xml:space="preserve">
+    <value>属性検索のフォームのロード処理に失敗しました。</value>
+  </data>
+  <data name="FormDefineFieldNameAlias_WarningCsvFileFieldNameNotMatch" xml:space="preserve">
+    <value>変換を行う有効なフィールドが存在ません。
+フィールド名定義テーブルを再選択してください。</value>
+  </data>
+  <data name="FormStyleGallery_FontFileNameGetError" xml:space="preserve">
+    <value>指定されたフォントのフォントファイル取得に失敗しました。</value>
+  </data>
+  <data name="FormExportShapeFile_QUESTION_AddExpotData" xml:space="preserve">
+    <value>フィーチャクラスへのエクスポートが完了しました。
+マップにレイヤとしてエクスポート データを追加しますか？</value>
+  </data>
+  <data name="FormAddAndDeleteField_DF_QUESTION_NoUndo" xml:space="preserve">
+    <value>フィールドの削除は元に戻せません。</value>
+  </data>
+  <data name="FormExportShapeFile_EFA_All" xml:space="preserve">
+    <value>すべてのフィーチャ</value>
+  </data>
+  <data name="CommonMessage_ApplicationName" xml:space="preserve">
+    <value>GISLight Ver10</value>
+  </data>
+  <data name="FormLabelSetting_Polygon_Horizontal" xml:space="preserve">
+    <value>水平</value>
+  </data>
+  <data name="FormExportShapeFile_ERROR_AddExportDataFailed" xml:space="preserve">
+    <value>エクスポート データの追加処理に失敗しました。</value>
+  </data>
+  <data name="AttrRelateCancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AttrRelateCancel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormAttributeSearch_WhenBeginSearch" xml:space="preserve">
+    <value>属性検索処理に失敗しました。</value>
+  </data>
+  <data name="FormSpatialSearch_SR_CONTAINS" xml:space="preserve">
+    <value>に含まれる</value>
+    <comment>esriSpatialRelContains</comment>
+  </data>
+  <data name="FomAttributeSearch_WhenButtonApplyParamError" xml:space="preserve">
+    <value>選択条件が指定されていません。必要な条件を入力して下さい。</value>
+  </data>
+  <data name="FormSpatialSearch_SO_INTERSECTION" xml:space="preserve">
+    <value>現在の選択セットから絞り込みます。</value>
+    <comment>esriSetIntersection</comment>
+  </data>
+  <data name="FormJoinTable_ERROR_GetSrcKeyField" xml:space="preserve">
+    <value>結合元レイヤのキー フィールド取得処理に失敗しました。</value>
+  </data>
+  <data name="FormAddAndDeleteField_ERROR_DeleteField" xml:space="preserve">
+    <value>フィールドの削除処理に失敗しました。</value>
+  </data>
+  <data name="FormRelate_ERROR_GetSrcKeyField" xml:space="preserve">
+    <value>リレート元レイヤのキー フィールド取得処理に失敗しました。</value>
+  </data>
+  <data name="FormExportShapeFile_WARNING_Database" xml:space="preserve">
+    <value>ジオデータベースを指定してください。</value>
+  </data>
+  <data name="FormAddAndDeleteField_FT_String" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="FormAttributeTable_ErrorWhenFormClosed" xml:space="preserve">
+    <value>属性テーブル表示の終了処理に失敗しました。</value>
+  </data>
+  <data name="MergeCommand_ERROR_DoMerge" xml:space="preserve">
+    <value>マージの処理に失敗しました。</value>
+  </data>
+  <data name="FormDefineFieldNameAlias_ErrorCsvFileColumnCountInValid" xml:space="preserve">
+    <value>フィールド名定義テーブルのカラム数が不正です。
+必ず、フィールド名、別名という様に２つ以上のカラムである必要があります。</value>
+  </data>
+  <data name="Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Close.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormLabelSetting_Point_AboveCenter" xml:space="preserve">
+    <value>上優先</value>
+  </data>
+  <data name="Version" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Version.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormEditOption_ERROR_UpdateXML" xml:space="preserve">
+    <value>編集オプションの設定ファイルの更新処理に失敗しました。</value>
+  </data>
+  <data name="CommonMessage_OptionSetting_ERROR_FileNotExist" xml:space="preserve">
+    <value>設定ファイルが存在しません。</value>
+  </data>
+  <data name="FormAttributeSum_InValidateOutputPath" xml:space="preserve">
+    <value>保存先のパスが正しくありません。</value>
+  </data>
+  <data name="FormSpatialSearch_SR_TOUCHES" xml:space="preserve">
+    <value>と重なる</value>
+    <comment>esriSpatialRelWithin</comment>
+  </data>
+  <data name="MainForm_PrintLayoutPageSizeInvalid" xml:space="preserve">
+    <value>サポート対象の用紙サイズはA4またはA3です。もう一度選択してください。</value>
+  </data>
+  <data name="FormAttributeTable_ErrorWhenFormLoad" xml:space="preserve">
+    <value>属性テーブル表示のロード処理に失敗しました。</value>
+  </data>
+  <data name="FormAttributeSearch_WhenSearch" xml:space="preserve">
+    <value>属性検索処理中です。</value>
+  </data>
+  <data name="FormRelate_ERROR_GetDesrKeyField" xml:space="preserve">
+    <value>リレート先テーブルのキー フィールド取得処理に失敗しました。</value>
+  </data>
+  <data name="FormSymbolSettings_RETRY_MESSAGE" xml:space="preserve">
+    <value>恐れ入りますが、もう一度実行してみて下さい。</value>
+  </data>
+  <data name="Option" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Option.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormGeometryCalculate_Unit_A" xml:space="preserve">
+    <value>アール [a]</value>
+  </data>
+  <data name="FormAddAndDeleteField_DF_WARNING_NoSelectedDeleteField" xml:space="preserve">
+    <value>削除するフィールドを選択してください。</value>
+  </data>
+  <data name="FormSymbolSettings_WARNING_DefaultSymbol_CannotDelete" xml:space="preserve">
+    <value>&lt;その他の値すべて&gt;は削除する事は出来ません。
+[その他の値すべて]を表示チェックボックスをOn/Offし、
+適用またはOKボタンをクリックすることで、
+マップへ表示するか、表示しないかの切り替えの指定が出来ます。</value>
+  </data>
+  <data name="FormAddAndDeleteField_ERROR_Initialize" xml:space="preserve">
+    <value>フィールドの追加と削除フォームのロード処理に失敗しました。</value>
+  </data>
+  <data name="ExportMap_ErrorResolutionSetting" xml:space="preserve">
+    <value>指定された解像度でマップのエクスポートを実行する事は出来ません。
+下記の範囲内で指定する事が出来ます。</value>
+  </data>
+  <data name="FormJoinTable_WARNING_NoSrcKeyField" xml:space="preserve">
+    <value>結合元レイヤのキー フィールドを選択してください。</value>
+  </data>
+  <data name="FormJoinTable_WARNING_AlreadyJoin" xml:space="preserve">
+    <value>すでに結合関係を持ったテーブル同士をさらにテーブル結合することはできません。</value>
+  </data>
+  <data name="FormText_ErrorWhenSetTextElement" xml:space="preserve">
+    <value>テキストを設定する処理に失敗しました。</value>
+  </data>
+  <data name="CommonMessage_OptionSetting_ERROR_ValueCantRead" xml:space="preserve">
+    <value>設定ファイルの読み込み処理に失敗しました。
+</value>
+  </data>
+  <data name="FormExportShapeFile_WARNING_SameShapeFile" xml:space="preserve">
+    <value>エクスポート元となるデータソースを上書きすることはできません。
+他の出力先を選んでください。</value>
+  </data>
+  <data name="FormRemoveRelate_WARNING_NoRelateName" xml:space="preserve">
+    <value>リレート名を選択してください。</value>
+  </data>
+  <data name="FormSpatialSearch_WhenSearch" xml:space="preserve">
+    <value>空間検索処理中です。</value>
+  </data>
+  <data name="FormSymbolSettings_ErrorWhen_buttonSetColor_Click" xml:space="preserve">
+    <value>シンボルの色選択処理に失敗しました。</value>
+  </data>
+  <data name="MainForm_ErrorWhenReplaceMap" xml:space="preserve">
+    <value>マップ置き換え時の処理に失敗しました。</value>
+  </data>
+  <data name="MainForm_ErrorSetPlusInItemInit" xml:space="preserve">
+    <value>プラグインの配置に失敗しました。</value>
+  </data>
+  <data name="FormManageHyperlinks_WARNING_SelectNoField" xml:space="preserve">
+    <value>ハイパーリンクを設定するフィールドを選択してください。</value>
+  </data>
+  <data name="Geoprocessing_Error" xml:space="preserve">
+    <value>ジオプロセシングの実行中にエラーが発生しました。</value>
+  </data>
+  <data name="FormRelate_ERROR_DoRelate" xml:space="preserve">
+    <value>リレートの実行処理に失敗しました。</value>
+  </data>
+  <data name="FormSymbolSettings_ErrorWhen_buttonSetOutlineColor_Click" xml:space="preserve">
+    <value>シンボルのアウトライン色選択処理に失敗しました。</value>
+  </data>
+  <data name="FormExportShapeFile_WARNING_FeatureClassName" xml:space="preserve">
+    <value>出力フィーチャクラス名を指定してください。</value>
+  </data>
+  <data name="FormGeometryCalculate_Unit_SqM" xml:space="preserve">
+    <value>平方メートル [m2]</value>
+  </data>
+  <data name="FormJoinTable_ERROR_GetSrcLayers" xml:space="preserve">
+    <value>結合元レイヤの取得処理に失敗しました。</value>
+  </data>
+  <data name="FormAddAndDeleteField_FN_WARINIG_DuplicatedFieldName" xml:space="preserve">
+    <value>" は既存のフィールド名と重複しているため無効です。</value>
+  </data>
+  <data name="FormLabelSetting_ERROR_UpDownField" xml:space="preserve">
+    <value>ラベル フィールドの順序変更処理に失敗しました。</value>
+  </data>
+  <data name="FormOptionSettings_ERROR_ResetSettingFile" xml:space="preserve">
+    <value>設定ファイルのリセット処理に失敗しました。</value>
+  </data>
+  <data name="FormScaleBarSettings_ErrorWhenSetScaleBar" xml:space="preserve">
+    <value>縮尺記号を設定する処理に失敗しました。</value>
+  </data>
+  <data name="MainFrom_WARNING_TabChange" xml:space="preserve">
+    <value>編集中はレイアウトビューを表示できません。</value>
+  </data>
+  <data name="FormAttributeSum_SumError" xml:space="preserve">
+    <value>属性値集計処理に失敗しました。</value>
+  </data>
+  <data name="FormAttributeSearch_WhenButtonGetIndividualValue" xml:space="preserve">
+    <value>個別値の取得処理に失敗しました。</value>
+  </data>
+  <data name="FormRelate_ERROR_GetSrcLayers" xml:space="preserve">
+    <value>リレート元レイヤの取得処理に失敗しました。</value>
+  </data>
+  <data name="FormDefineFieldNameAlias_ErrorWhenFormLoad" xml:space="preserve">
+    <value>フィールド名別名変換処理のフォームロードに失敗しました。</value>
+  </data>
+  <data name="FormAttributeSum_NoSelectKeyField" xml:space="preserve">
+    <value>キー フィールドを選択してください。</value>
+  </data>
+  <data name="FormAttributeSum_FinishedMessage" xml:space="preserve">
+    <value>属性値集計が完了しました。</value>
+  </data>
+  <data name="FormJoinTable_ERROR_CantOpenDestTable" xml:space="preserve">
+    <value>結合先テーブルを開く処理に失敗しました。</value>
+  </data>
+  <data name="FormSpatialSearch_SR_WITHIN" xml:space="preserve">
+    <value>を含む</value>
+    <comment>esriSpatialRelWithin</comment>
+  </data>
+  <data name="FormAddAndDeleteField_FN_WARINIG_InvalidCharacter" xml:space="preserve">
+    <value>" は無効な文字を含んでいるため無効です。</value>
+  </data>
+  <data name="SpetialSearch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpetialSearch.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FromSplitAndMergeSetting_ERROR_UpdateXML" xml:space="preserve">
+    <value>スプリット・マージの設定ファイルの更新処理に失敗しました。</value>
+  </data>
+  <data name="FormJoinTable_WARNING_JoinTextAndInt" xml:space="preserve">
+    <value>データ型が異なるキー フィールド同士のテーブル結合はできません。</value>
+  </data>
+  <data name="FormSymbolSettings_ErrorWhen_numericUpDownSimpleSymbolSizeOrWidth_ValueChanged" xml:space="preserve">
+    <value>シンボルサイズ変更処理に失敗しました。</value>
+  </data>
+  <data name="FormSymbolSettings_ErrorWhen_buttonOpenImageFile_Click_Pict" xml:space="preserve">
+    <value>画像取得処理に失敗しました。</value>
+  </data>
+  <data name="FormGeometryCalculate_ERROR_Initialize" xml:space="preserve">
+    <value>面積・長さ計算ウィンドウの初期化に失敗しました。</value>
+  </data>
+  <data name="TOC_Collapsed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOC_Collapsed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormSymbolSettings_ErrorWhen_buttonOpenImageFile_Click_ColorRamp" xml:space="preserve">
+    <value>カラーランプ取得処理に失敗しました。</value>
+  </data>
+  <data name="FromSplitAndMergeSetting_ERROR_UnexpectedPolicy" xml:space="preserve">
+    <value>編集方法の取得処理に失敗しました。</value>
+  </data>
+  <data name="SelectLayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SelectLayer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormAddAndDeleteField_FT_Double" xml:space="preserve">
+    <value>Double</value>
+  </data>
+  <data name="FormSymbolSettingsWarningWhenProptertyChanged" xml:space="preserve">
+    <value>プレビュー更新を実行してから、
+再度、試して下さい。</value>
+  </data>
+  <data name="FormAttributeTable_ErrorWhenZoomFeature" xml:space="preserve">
+    <value>ダブルクリックしたレコードへズームする処理に失敗しました。</value>
+  </data>
+  <data name="FormGeometryCalculate_ERROR" xml:space="preserve">
+    <value>面積・長さ計算の処理に失敗しました。</value>
+  </data>
+  <data name="FormGeometryCalculate_WARNING_Length" xml:space="preserve">
+    <value>1つ以上の値が、指定したテキストフィールドに収まらなかったため、切りつめました。
+切りつめた値には、アスタリスク [ * ] が付いています。</value>
+  </data>
+  <data name="FormAttributeTable_Warinig_PageRowMaxLimitOver" xml:space="preserve">
+    <value>１頁あたりの表示最大レコード数の上限を超えた件数が指定されています。</value>
+  </data>
+  <data name="Intersect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Intersect.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainForm_ErrorWhenTocControlMouseDown" xml:space="preserve">
+    <value>コンテンツ ビュー上でのマウスクリック時の処理に失敗しました。</value>
+  </data>
+  <data name="FormLabelSetting_WARNING_AddSameName" xml:space="preserve">
+    <value>ラベル フィールドに名前が同じフィールドを複数追加することはできません。</value>
+  </data>
+  <data name="MainForm_ErrorWhenMapControlMouseMove" xml:space="preserve">
+    <value>マップ上でのマウス移動時の処理に失敗しました。</value>
+  </data>
+  <data name="FormExportShapeFile_EFA_Selected" xml:space="preserve">
+    <value>選択フィーチャ</value>
+  </data>
+  <data name="FormSymbolSettings_ErrorWhen_buttonOKApply_Click" xml:space="preserve">
+    <value>シンボル設定内容の更新処理に失敗しました。</value>
+  </data>
+  <data name="SplitPolygonEditTask_ERROR_DoSplit" xml:space="preserve">
+    <value>スプリットの処理に失敗しました。</value>
+  </data>
+  <data name="FormAddAndDeleteField_DF_WARNING_SchemaLock" xml:space="preserve">
+    <value>他のアプリケーション/ユーザが使用中のため、フィールドの削除処理に失敗しました。</value>
+  </data>
+  <data name="FormDefineFieldNameAlias_ErrorCsvFileFieHeaderInValid" xml:space="preserve">
+    <value>フィールド名定義テーブルのヘッダが不正です。
+フィールド名定義テーブルのヘッダ（先頭1行目）には
+FieldName,AliasNameの２つが存在している必要があります。
+フィールド名定義テーブルの内容をご確認ください。</value>
+  </data>
+  <data name="FormAttributeSum_KeySumFieldEqualed" xml:space="preserve">
+    <value>集計フィールドにキー フィールドを含めることはできません。</value>
+  </data>
+  <data name="OpenExportMapCommand_Error" xml:space="preserve">
+    <value>マップのエクスポートに失敗しました。</value>
+  </data>
+  <data name="InvokeExportMapHelper_ParameterError" xml:space="preserve">
+    <value>エクスポートマップ：パラメータが不正です。</value>
+  </data>
+  <data name="FormLabelSetting_Point_BelowRight" xml:space="preserve">
+    <value>右下優先</value>
+  </data>
+  <data name="FormGeometryCalculate_Unit_SqKm" xml:space="preserve">
+    <value>平方キロメートル [km2]</value>
+  </data>
+  <data name="FormAddAndDeleteField_DF_QUESTION_DeleteField" xml:space="preserve">
+    <value>" を削除してもよろしいですか?</value>
+  </data>
+  <data name="FormExportShapeFile_ERROR_FormOpenFailed" xml:space="preserve">
+    <value>フィーチャクラスへのエクスポートのフォームのロード処理に失敗しました。</value>
+  </data>
+  <data name="FormAttributeSum_NoSelectOutput" xml:space="preserve">
+    <value>出力ファイルを指定してください。</value>
+  </data>
+  <data name="FormSymbolSettings_ErrorWhen_buttonOpenSyleGallery_Click" xml:space="preserve">
+    <value>スタイルの取得処理に失敗しました。</value>
+  </data>
+  <data name="FormAddAndDeleteField_AF_WARNING_SchemaLock" xml:space="preserve">
+    <value>他のアプリケーション/ユーザが使用中のため、フィールドの追加処理に失敗しました。</value>
+  </data>
+  <data name="FormLabelSetting_Point_CenterLeft" xml:space="preserve">
+    <value>左優先</value>
+  </data>
+  <data name="FormAttributeTable_ErrorWhenDataGridViewSelectionChanged" xml:space="preserve">
+    <value>データグリッド上の行選択時変更時イベントに失敗しました。</value>
+  </data>
+  <data name="CommonMessage_OptionSetting_ERROR_ResetMessage" xml:space="preserve">
+    <value>
+
+設定ファイルが破損している可能性がありますので、設定をリセットしてください。
+[ オプションメニュー &gt; オプション設定 &gt; 設定リセット ]</value>
+  </data>
+  <data name="FormGeometryCalculate_UnitLabel_M" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="FormSymbolSettings_ClassBreaksDataNotFound" xml:space="preserve">
+    <value>選択されているレイヤには数値フィールドが存在しませんので、 数値分類の処理はできません。</value>
+  </data>
+  <data name="FormGeometryCalculate_UnitLabel_Cm" xml:space="preserve">
+    <value>cm</value>
+  </data>
+  <data name="FormAttributeTable_ErrorWhenSelectData" xml:space="preserve">
+    <value>選択データの取得処理に失敗しました。</value>
+  </data>
+  <data name="FormLabelSetting_Point_BelowLeft" xml:space="preserve">
+    <value>左下優先</value>
+  </data>
+  <data name="FormOptionSettings_WARNING_DeleteTemporaryFile" xml:space="preserve">
+    <value>テンポラリファイルを削除しますか?</value>
+  </data>
+  <data name="FormAddAndDeleteField_FT_Single" xml:space="preserve">
+    <value>Float</value>
+  </data>
+  <data name="SplitPolylineEditTask_WARNING_BadSplitPoint" xml:space="preserve">
+    <value>このスプリットポイントは有効ではありません。</value>
+  </data>
+  <data name="FormGeometryCalculate_WARNING_Field" xml:space="preserve">
+    <value>選択したレイヤには有効なフィールドが存在しません。</value>
+  </data>
+  <data name="FormRemoveRelate_ERROR_GetSrcLayers" xml:space="preserve">
+    <value>リレート元レイヤの取得処理に失敗しました。</value>
+  </data>
+  <data name="FormManageHyperlinks_ERROR_SetHyperlinksFailed" xml:space="preserve">
+    <value>ハイパーリンクの設定処理に失敗しました。</value>
+  </data>
+  <data name="FormExportShapeFile_EFA_ActiveView" xml:space="preserve">
+    <value>表示範囲のすべてのフィーチャ</value>
+  </data>
+  <data name="FormOptionSettings_WARNING_NotNumeric" xml:space="preserve">
+    <value> を設定することができません。
+数字を入力してください。</value>
+  </data>
+  <data name="FormJoinTable_WARNING_NoSrcLayer" xml:space="preserve">
+    <value>結合元レイヤを選択してください。</value>
+  </data>
+  <data name="FormGeometryCalculate_UnitLabel_Ha" xml:space="preserve">
+    <value>ha</value>
+  </data>
+  <data name="FormGeometryCalculate_Unit_Ha" xml:space="preserve">
+    <value>ヘクタール [ha]</value>
+  </data>
+  <data name="FormAddAndDeleteField_AF_WARNING_InEditing" xml:space="preserve">
+    <value>編集中はフィールドの追加と削除を行うことはできません。</value>
+  </data>
+  <data name="FormLabelSetting_Point_AboveRight" xml:space="preserve">
+    <value>右上優先</value>
+  </data>
+  <data name="MainForm_WhenToolMenuVersionInfo_Click" xml:space="preserve">
+    <value>バージョン情報表示処理に失敗しました。</value>
+  </data>
+  <data name="FormLabelSetting_ERROR_FieldRemove" xml:space="preserve">
+    <value>ラベル フィールドの削除処理に失敗しました。</value>
+  </data>
+  <data name="FormAttributeTable_ErrorWhenAllData" xml:space="preserve">
+    <value>すべてのデータ取得処理に失敗しました。</value>
+  </data>
+  <data name="FormAttributeTable_InfoWhenDisplayDataCountOver" xml:space="preserve">
+    <value>１ページでの表示件数の制限を超えました。</value>
+  </data>
+  <data name="FormAddAndDeleteField_AF_WARNING_ScaleInvalid" xml:space="preserve">
+    <value>小数点以下桁数 に 全桁数 より大きな値を設定することはできません。</value>
+  </data>
+  <data name="FormSymbolSettings_Error_PointSizeZero" xml:space="preserve">
+    <value>ポイントのサイズはゼロに設定する事はできません。</value>
+  </data>
+  <data name="FormRelate_WARNING_NoDestTable" xml:space="preserve">
+    <value>リレート先テーブルを選択してください。</value>
+  </data>
+  <data name="FormJoinTable_WARNING_NoDestKeyField" xml:space="preserve">
+    <value>結合先テーブルのキー フィールドを選択してください。</value>
+  </data>
+  <data name="AttrJoin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AttrJoin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormGeometryCalculate_Unit_Km" xml:space="preserve">
+    <value>キロメートル [km]</value>
+  </data>
+  <data name="FormEditOption_WARNING_StreamTolerance" xml:space="preserve">
+    <value>ストリーム許容値に</value>
+  </data>
+  <data name="FormAddAndDeleteField_FN_WARINIG_SQLReservedWord" xml:space="preserve">
+    <value>" は予約語を含んでいるため無効です。</value>
+  </data>
+  <data name="FormAddAndDeleteField_AF_WARNING_StringCount" xml:space="preserve">
+    <value> 文字</value>
+  </data>
+  <data name="FormAttributeSum_NoLayer" xml:space="preserve">
+    <value>数値型フィールドを持つレイヤが存在しません。</value>
+  </data>
+  <data name="FormLabelSetting_Line_Horizontal" xml:space="preserve">
+    <value>水平</value>
+  </data>
+  <data name="FormExportShapeFile_ErrorDeleteFeatureClass" xml:space="preserve">
+    <value>フィーチャクラスの削除に失敗しました。</value>
+  </data>
+  <data name="FormAddAndDeleteField_DF_WARNING_EditingLock" xml:space="preserve">
+    <value>他のアプリケーション/ユーザが編集中のため、フィールドの削除処理に失敗しました。</value>
+  </data>
+  <data name="FormDefineFieldNameAlias_ErrorCsvFileRecordNotExist" xml:space="preserve">
+    <value>フィールド名定義テーブルにレコードが存在しません。</value>
+  </data>
+  <data name="FormSpatialSearch_WARNING_SAMELAYER" xml:space="preserve">
+    <value>選択レイヤに入力レイヤを含めることはできません。</value>
+  </data>
+  <data name="FormSymbolSettings_ErrorWhen_UpdatePreviewUniqueValueThread" xml:space="preserve">
+    <value>数値分類のプレビュー更新処理に失敗しました。</value>
+  </data>
+  <data name="FormAttributeSum_WhenSumUp" xml:space="preserve">
+    <value>属性値集計処理中です。</value>
+  </data>
+  <data name="FormDefineFieldNameAlias_ErrorWhenOpenCsvFile" xml:space="preserve">
+    <value>フィールド名定義テーブルの読込みに失敗しました。</value>
+  </data>
+  <data name="FormLabelSetting_ERROR_FormLoad" xml:space="preserve">
+    <value>ラベル表示のフォームのロード処理に失敗しました。</value>
+  </data>
+  <data name="MeasureTool16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MeasureTool16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TOC_Expand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOC_Expand.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormSymbolSettings_Error_ComboBoxFieldNameClassBreaks_SelectedIndexChanged" xml:space="preserve">
+    <value>数値分類の選択フィールドの最大値、最少値の取得に失敗しました。</value>
+  </data>
+  <data name="MainForm_NormalEndMessageBase" xml:space="preserve">
+    <value>正常終了しました。</value>
+  </data>
+  <data name="FormGeometryCalculate_Property_Perimeter" xml:space="preserve">
+    <value>周長</value>
+  </data>
+  <data name="FormAddAndDeleteField_AF_WARNING_NoPrecision" xml:space="preserve">
+    <value>全桁数 が入力されていません。</value>
+  </data>
+  <data name="FormManageHyperlinks_QUESTION_DeleteHyperlinks" xml:space="preserve">
+    <value>ハイパーリンクの設定を解除します。
+続行しますか?</value>
+  </data>
+  <data name="FormAttributeSearch_WhenLayerSelected" xml:space="preserve">
+    <value>処理対象レイヤ選択時の処理に失敗しました。</value>
+  </data>
+  <data name="FormRemoveJoin_ERROR_DoRemoveJoin" xml:space="preserve">
+    <value>テーブル結合解除の実行処理に失敗しました。</value>
+  </data>
+  <data name="FormEditOption_WARNING_IntRange" xml:space="preserve">
+    <value> を設定することができません。
+下記の範囲内で指定することができます。
+</value>
+  </data>
+  <data name="FormLabelSetting_ERROR_DoLabeling" xml:space="preserve">
+    <value>ラベル表示の処理に失敗しました。</value>
+  </data>
+  <data name="FormGeometryCalculate_WARNING_SpatialReference" xml:space="preserve">
+    <value>選択したレイヤの座標系が、未定義、または地理座標系です。</value>
+  </data>
+  <data name="AttrSearch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AttrSearch.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormRelate_WARNING_NoDestKeyField" xml:space="preserve">
+    <value>リレート先テーブルのキー フィールドを選択してください。</value>
+  </data>
+  <data name="FormLabelSetting_Line_CurveAbove" xml:space="preserve">
+    <value>ラインに沿って上方</value>
+  </data>
+  <data name="AddXYData" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddXYData.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormDefineFieldNameAlias_ErrorFileldAliasIsSpace" xml:space="preserve">
+    <value>フィールド名別名が空白です。
+空白のまま登録は出来ません。</value>
+  </data>
+  <data name="FormAttributeSum_WhenLoad" xml:space="preserve">
+    <value>属性値集計のフォームのロード処理に失敗しました。</value>
+  </data>
+  <data name="FormSymbolSettings_WARNING_UniqueValueCountLimitOver" xml:space="preserve">
+    <value>個別値分類の上限を超えた最大分類数が指定されています。</value>
+  </data>
+  <data name="AddCadData" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddCadData.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormRemoveRelate_ERROR_GetRelateNames" xml:space="preserve">
+    <value>リレート名の取得処理に失敗しました。</value>
+  </data>
+  <data name="FormDataFrameProjection_ERROR_Initialize" xml:space="preserve">
+    <value>座標系の設定フォームのロード処理に失敗しました。</value>
+  </data>
+  <data name="FormAddAndDeleteField_ERROR_ChangeFieldType" xml:space="preserve">
+    <value>フィールドタイプの変更処理に失敗しました。</value>
+  </data>
+  <data name="FormDefineFieldNameAlias_WarningCsvFileFieldNameDuplicate" xml:space="preserve">
+    <value>フィールド名定義テーブルの
+フィールド名が重複しています。
+重複している内の最初に読み込んだ内容が使用されます。</value>
+  </data>
+  <data name="FormEditOption_WARNING_StickyMoveTolerance" xml:space="preserve">
+    <value>移動抑制許容値に</value>
+  </data>
+  <data name="FormSelectableLayerSettings_ERROR_SetLayerSettings" xml:space="preserve">
+    <value>選択可能レイヤの設定処理に失敗しました。</value>
+  </data>
+  <data name="SplitPolygonEditTask_WARNING_BadSplitLine" xml:space="preserve">
+    <value>このスプリットラインは有効ではありません。</value>
+  </data>
+  <data name="MainForm_ErrorWhenMenuSave" xml:space="preserve">
+    <value>マップ ドキュメント保存処理に失敗しました。</value>
+  </data>
+  <data name="FormAddAndDeleteField_AF_WARNING_NoFieldName" xml:space="preserve">
+    <value>追加するフィールド名を入力してください。</value>
+  </data>
+  <data name="FormAddAndDeleteField_FN_WARINIG_InvalidFieldNameLength" xml:space="preserve">
+    <value>" は長すぎるため無効です。</value>
+  </data>
+  <data name="FormEditOption_WARNING_Integer" xml:space="preserve">
+    <value>の整数を入力してください。</value>
+  </data>
+  <data name="AttrRelate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AttrRelate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormDataFrameProjection_WARNING_Unknown" xml:space="preserve">
+    <value>Unknownは設定できません。</value>
+  </data>
+  <data name="FormSelectableLayerSettings_ERROR_ChangeSelectAll" xml:space="preserve">
+    <value>全選択処理に失敗しました。</value>
+  </data>
+  <data name="InsertPictureCommandWarningMessage" xml:space="preserve">
+    <value>選択されたオブジェクトを挿入すると
+システム的に処理可能なサイズを超える可能性があります。
+その場合アプリケーションが異常終了するかも知れません。 
+その為、処理を中断します。</value>
+  </data>
+  <data name="MapExport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MapExport.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainForm_ErrorWhenGetPlugInParameterInfo" xml:space="preserve">
+    <value>プラグイン設定ファイルの読み取り中にエラーが発生しました。</value>
+  </data>
+  <data name="FormOptionSettings_ERROR_SetSettingsFile" xml:space="preserve">
+    <value>設定ファイルへの設定処理に失敗しました。</value>
+  </data>
+  <data name="FormMainPageLayout_EditStatusCheckInfo" xml:space="preserve">
+    <value>編集開始状態を保存しますか？</value>
+  </data>
+  <data name="FormLabelSetting_WARNING_NoLabelField" xml:space="preserve">
+    <value>ラベル フィールドを選択してください。</value>
+  </data>
+  <data name="FormAddAndDeleteField_FN_FieldName" xml:space="preserve">
+    <value>指定したフィールド名 "</value>
+  </data>
+  <data name="menuAddData" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menuAddData1.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormStyleGallery_ErrorWhenSetStyle" xml:space="preserve">
+    <value>スタイルを設定する処理に失敗しました。</value>
+  </data>
+  <data name="FormAddAndDeleteField_DF_WARNING_InEditing" xml:space="preserve">
+    <value>編集中はフィールドの追加と削除を行うことはできません。</value>
+  </data>
+  <data name="FormAddAndDeleteField_AF_QUESTION_ZeroTextLength" xml:space="preserve">
+    <value>長さ に 0 が入力されているため、デフォルト値で設定します。
+フィールドの追加を続行しますか?</value>
+  </data>
+  <data name="FormExportShapeFile_WARNING_NoFileName" xml:space="preserve">
+    <value>出力シェープファイルを指定してください。</value>
+  </data>
+  <data name="FormSpatialSearch_SO_DIFFERENCE" xml:space="preserve">
+    <value>現在の選択セットから削除します。</value>
+    <comment>esriSetDifference</comment>
+  </data>
+  <data name="FormExportShapeFile_WARNING_FeatureClassExits" xml:space="preserve">
+    <value>指定したフィーチャクラスは既に存在します。
+出力先ワークスペースまたはフィーチャクラスを変更してください。</value>
+  </data>
+  <data name="FormGeometryCalculate_WARNING_Length2" xml:space="preserve">
+    <value>1つ以上の値が、指定した数値型フィールドに収まりませんでした。
+収まらなかったレコードには、[ -1 ] が入力されています。</value>
+  </data>
+  <data name="FormAttributeSearch_WhenGetIndividualValues" xml:space="preserve">
+    <value>個別値取得処理中です。</value>
+  </data>
+  <data name="SaveLayer_Error" xml:space="preserve">
+    <value>レイヤの保存に失敗しました。</value>
+  </data>
+  <data name="MainForm_WARNING_ResetLayout" xml:space="preserve">
+    <value>マップフレームのリセットは元に戻せません。
+よろしいですか?</value>
+  </data>
+  <data name="FormSpatialSearch_ERROR_Initialize" xml:space="preserve">
+    <value>空間検索ダイアログの初期化に失敗しました。</value>
+  </data>
+  <data name="FormSelectableLayerSettings_ERROR_ChangeSelectNone" xml:space="preserve">
+    <value>全解除処理に失敗しました。</value>
+  </data>
+  <data name="FieldCalculate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FieldCalculate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FormDatasource_ErrorDifDatatype" xml:space="preserve">
+    <value>異なるデータの種類を設定できません。</value>
+  </data>
+  <data name="FormDatasource_ErrorGetDataInfo" xml:space="preserve">
+    <value>選択したデータの情報を取得できません。</value>
+  </data>
+  <data name="FormGeoReference_ERROR_ReadLinkFile" xml:space="preserve">
+    <value>リンクファイルの読み込みが失敗しました：</value>
+  </data>
+  <data name="FormGeoReference_ERROR_SaveLinkFile" xml:space="preserve">
+    <value>リンクファイルの保存が失敗しました：</value>
+  </data>
+  <data name="FormGeoReference_WARNIG_InvalidRaster" xml:space="preserve">
+    <value>有効なラスターデータがありません。</value>
+  </data>
+  <data name="FormGeoReference_WARNING_ChangeLayoutView" xml:space="preserve">
+    <value>ジオリファレンスの実行中はレイアウトビューを表示できません。</value>
+  </data>
+  <data name="FormGeoReference_WARNING_InvalidLinkFile" xml:space="preserve">
+    <value>は、無効なリンクファイルです。</value>
+  </data>
+  <data name="FormGeoReference_WARNING_UpdateWorldFile" xml:space="preserve">
+    <value>ワールドファイルを更新できません。</value>
+  </data>
+  <data name="FormGeoRefRectify_Q_LoadNewRaster" xml:space="preserve">
+    <value>保存したラスターを地図に追加しますか？</value>
+  </data>
+  <data name="FormLegendSettings_WARNING_LegendItemNone" xml:space="preserve">
+    <value>凡例項目または凡例タイトルを指定してください</value>
+  </data>
+  <data name="CadastralJobLoad16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CadastralJobLoad16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CadastralJobSaveToFile16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CadastralJobSaveToFile16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LightCatalogView_OPEN_MDB_ERROR" xml:space="preserve">
+    <value>データベースに接続できませんでした。</value>
+  </data>
+  <data name="APP_PRODUCT_NAME" xml:space="preserve">
+    <value>GIS Light</value>
+  </data>
+</root>

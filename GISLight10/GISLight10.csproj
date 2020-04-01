@@ -1,0 +1,1000 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5C161F2E-1FEE-4E3D-AE99-6C8C78C4C4ED}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ESRIJapan.GISLight10</RootNamespace>
+    <AssemblyName>ESRIJapanGISLight</AssemblyName>
+    <ApplicationIcon>Earth.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>http://localhost/GISLight/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>3.0.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DocumentationFile>bin\Release\ESRIJapanGISLight.xml</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ESRI.ArcGIS.ADF.Connection.Local, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.ADF.Local, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.AnalysisTools, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Animation, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.AxControls, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.AxPublisherControls, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Carto, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.CartographyTools, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.CartoX, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Controls, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.ConversionTools, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DataManagementTools, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DataSourcesFile, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DataSourcesGDB, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DataSourcesNetCDF, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DataSourcesOleDB, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DataSourcesRaster, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Display, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.EngineCore, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.GeocodingTools, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geodatabase, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.GeoDatabaseDistributed, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.GeoDatabaseExtensions, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geometry, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geoprocessing, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geoprocessor, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.GeostatisticalAnalystTools, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.GISClient, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.LinearReferencingTools, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Location, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.NetworkAnalysis, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Output, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.SampleTools, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Server, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.System, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.SystemUI, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Version, Version=10.7.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\ApplicationInitializer.cs" />
+    <Compile Include="Common\AreaCalculatorUnit.cs" />
+    <Compile Include="Common\CustomColorsSettings.cs" />
+    <Compile Include="Common\DomainManager.cs" />
+    <Compile Include="Common\EditOptionSettings.cs" />
+    <Compile Include="Common\FieldManager.cs" />
+    <Compile Include="Common\GeometryCalculator.cs" />
+    <Compile Include="Common\GeometryCalculator2.cs" />
+    <Compile Include="Common\GeometryCalculatorSettings.cs" />
+    <Compile Include="Common\Geoprocessor.cs" />
+    <Compile Include="Common\GPEventHelper.cs" />
+    <Compile Include="Common\IGeometryCalculator.cs" />
+    <Compile Include="Common\IGeometryCalculatorUnit.cs" />
+    <Compile Include="Common\LengthCalculatorUnit.cs" />
+    <Compile Include="Common\ListViewInputBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Common\NumberAndPointTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Common\OptionSettings.cs" />
+    <Compile Include="Common\ConstComboItem.cs" />
+    <Compile Include="Common\ControlsSynchronizer.cs" />
+    <Compile Include="Common\ExportFunctions.cs" />
+    <Compile Include="Common\DrawSymbol.cs" />
+    <Compile Include="Common\ExportFunctions2.cs" />
+    <Compile Include="Common\FieldComboItem.cs" />
+    <Compile Include="Common\FileManager.cs" />
+    <Compile Include="Common\GeometryChecker.cs" />
+    <Compile Include="Common\HyperlinkFunctions.cs" />
+    <Compile Include="Common\LayerManager.cs" />
+    <Compile Include="Common\JoinTableFunctions.cs" />
+    <Compile Include="Common\LayerComboItem.cs" />
+    <Compile Include="Common\Logger.cs" />
+    <Compile Include="Common\Maps.cs" />
+    <Compile Include="Common\MessageBoxManager.cs" />
+    <Compile Include="Common\NumbersOnlyTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Common\QueryTableOperator.cs" />
+    <Compile Include="Common\RelateFunctions.cs" />
+    <Compile Include="Common\RelClassComboItem.cs" />
+    <Compile Include="Common\RelQueryTableComboItem.cs" />
+    <Compile Include="Common\RemoveJoinFunctions.cs" />
+    <Compile Include="Common\RemoveRelateFunctions.cs" />
+    <Compile Include="Common\SingletonUtility.cs" />
+    <Compile Include="Common\SplitAndMargeSettings.cs" />
+    <Compile Include="Common\StandAloneTableOpener.cs" />
+    <Compile Include="Common\TargetFieldNameClass.cs" />
+    <Compile Include="Common\TaskInfo.cs" />
+    <Compile Include="Common\UtilityClass.cs" />
+    <Compile Include="Common\WindowHelper.cs" />
+    <Compile Include="Common\SubWindowNameClass.cs" />
+    <Compile Include="Common\WindowsAPI45.cs" />
+    <Compile Include="Common\WindowsAPI.cs" />
+    <Compile Include="Common\XMLAccessClass.cs" />
+    <Compile Include="Dispatcher\Dispatcher.cs" />
+    <Compile Include="Dispatcher\Participant.cs" />
+    <Compile Include="EngineCommand\AddBaseMapLayerCommand.cs" />
+    <Compile Include="EngineCommand\AddGroupLayerCommand.cs" />
+    <Compile Include="EngineCommand\AddXYDataCommand.cs" />
+    <Compile Include="EngineCommand\AttributeSearchCommand.cs" />
+    <Compile Include="EngineCommand\AttributeSearchCommandForStd.cs" />
+    <Compile Include="EngineCommand\Common\EjBaseCommand.cs" />
+    <Compile Include="EngineCommand\Common\EjBaseTool.cs" />
+    <Compile Include="EngineCommand\ConnectOLEDB.cs" />
+    <Compile Include="EngineCommand\CreateLegend.cs" />
+    <Compile Include="EngineCommand\CreateNewDocument.cs" />
+    <Compile Include="EngineCommand\CreateNorthArrow.cs" />
+    <Compile Include="EngineCommand\CreateScaleBar.cs" />
+    <Compile Include="EngineCommand\DefineFieldNameAliasCommand.cs" />
+    <Compile Include="EngineCommand\DefineFieldNameAliasCommandForStd.cs" />
+    <Compile Include="EngineCommand\EditingSnappingCommand.cs" />
+    <Compile Include="EngineCommand\EditLegendCommand.cs" />
+    <Compile Include="EngineCommand\EditOptionCommand.cs" />
+    <Compile Include="EngineCommand\ExportShapeFile.cs" />
+    <Compile Include="EngineCommand\FieldCalculatorCommand.cs" />
+    <Compile Include="EngineCommand\FieldCalculatorForStd.cs" />
+    <Compile Include="EngineCommand\GeometryCalculatorCommand.cs" />
+    <Compile Include="EngineCommand\GeoReferenceCommand.cs" />
+    <Compile Include="EngineCommand\InsertPictureCommand.cs" />
+    <Compile Include="EngineCommand\IntersectCommand.cs" />
+    <Compile Include="EngineCommand\InvokeExportMapHelper.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EngineCommand\LabelSettingCommand.cs" />
+    <Compile Include="EngineCommand\LayerFieldCalculatorCommand.cs" />
+    <Compile Include="EngineCommand\LayerGeometryCalculatorCommand.cs" />
+    <Compile Include="EngineCommand\LayerVisibility.cs" />
+    <Compile Include="EngineCommand\OpenAttributeTable.cs" />
+    <Compile Include="EngineCommand\OpenDataSource.cs" />
+    <Compile Include="EngineCommand\OpenDocument.cs" />
+    <Compile Include="EngineCommand\OpenExportMapCommand.cs">
+    </Compile>
+    <Compile Include="EngineCommand\OpenStandaloneTable.cs" />
+    <Compile Include="EngineCommand\OpenStandaloneTableList.cs" />
+    <Compile Include="EngineCommand\PageSetUpCommand.cs" />
+    <Compile Include="EngineCommand\SaveDocument.cs" />
+    <Compile Include="EngineCommand\SaveLayer.cs" />
+    <Compile Include="EngineCommand\ScaleRangeCommand.cs" />
+    <Compile Include="EngineCommand\SelectableLayerSettingsCommand.cs" />
+    <Compile Include="EngineCommand\SelectionFeatureZoomCommand.cs" />
+    <Compile Include="EngineCommand\SetDataFrameProjectionCommand.cs" />
+    <Compile Include="EngineCommand\ShowTOCCommand.cs" />
+    <Compile Include="EngineCommand\SymbolSettingsCommand.cs" />
+    <Compile Include="EngineCommand\RemoveJoinCommand.cs" />
+    <Compile Include="EngineCommand\RemoveLayer.cs" />
+    <Compile Include="EngineCommand\RemoveRelateCommand.cs" />
+    <Compile Include="EngineCommand\CreateTextElement.cs" />
+    <Compile Include="EngineCommand\OptionSettingsCommand.cs" />
+    <Compile Include="EngineCommand\EditTextElementCommand.cs" />
+    <Compile Include="EngineCommand\EditScaleBarElementPropCommand.cs" />
+    <Compile Include="EngineCommand\PrinitPreviewCommand.cs" />
+    <Compile Include="EngineCommand\PrinitPageLayoutCommand.cs" />
+    <Compile Include="EngineCommand\ResetPageLayoutCommand.cs" />
+    <Compile Include="EngineCommand\ReadDataSource.cs" />
+    <Compile Include="EngineCommand\GeoRef_AddControlPointTool.cs" />
+    <Compile Include="EngineEditTask\SplitPolygonEditTask.cs" />
+    <Compile Include="EngineEditTask\SplitPolylineEditTask.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Ui\FormAddAndDeleteField.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormAddAndDeleteField.Designer.cs">
+      <DependentUpon>FormAddAndDeleteField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormAddQueryLayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormAddQueryLayer.designer.cs">
+      <DependentUpon>FormAddQueryLayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormAddXYData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormAddXYData.Designer.cs">
+      <DependentUpon>FormAddXYData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormArcGISServerConnect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormArcGISServerConnect.designer.cs">
+      <DependentUpon>FormArcGISServerConnect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormAttributelSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormAttributelSearch.designer.cs">
+      <DependentUpon>FormAttributelSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormAttributeTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormAttributeTable.designer.cs">
+      <DependentUpon>FormAttributeTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormCompositeInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormCompositeInsert.Designer.cs">
+      <DependentUpon>FormCompositeInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormDataFrameProjection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormDataFrameProjection.Designer.cs">
+      <DependentUpon>FormDataFrameProjection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormDatasource.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormDatasource.Designer.cs">
+      <DependentUpon>FormDatasource.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormDefineFieldNameAlias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormDefineFieldNameAlias.designer.cs">
+      <DependentUpon>FormDefineFieldNameAlias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormEditOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormEditOption.Designer.cs">
+      <DependentUpon>FormEditOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormExecuteGP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormExecuteGP.designer.cs">
+      <DependentUpon>FormExecuteGP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormFieldCalculate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormFieldCalculate.designer.cs">
+      <DependentUpon>FormFieldCalculate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormGeometryCalculate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormGeometryCalculate.designer.cs">
+      <DependentUpon>FormGeometryCalculate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormGeoReference.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormGeoReference.designer.cs">
+      <DependentUpon>FormGeoReference.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormGeoRefRectify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormGeoRefRectify.Designer.cs">
+      <DependentUpon>FormGeoRefRectify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormGISDataSelectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormGISDataSelectDialog.designer.cs">
+      <DependentUpon>FormGISDataSelectDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormIntersect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormIntersect.Designer.cs">
+      <DependentUpon>FormIntersect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormLegendSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormLegendSettings.designer.cs">
+      <DependentUpon>FormLegendSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormOLEDBConnect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormOLEDBConnect.designer.cs">
+      <DependentUpon>FormOLEDBConnect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormOptionSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormOptionSettings.designer.cs">
+      <DependentUpon>FormOptionSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormProgressManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormProgressManager.Designer.cs">
+      <DependentUpon>FormProgressManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormScaleBarSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormScaleBarSettings.Designer.cs">
+      <DependentUpon>FormScaleBarSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormScaleRange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormScaleRange.Designer.cs">
+      <DependentUpon>FormScaleRange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormSelectableLayerSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormSelectableLayerSettings.Designer.cs">
+      <DependentUpon>FormSelectableLayerSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormSelectTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormSelectTable.Designer.cs">
+      <DependentUpon>FormSelectTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormSplitAndMergeSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormSplitAndMergeSetting.Designer.cs">
+      <DependentUpon>FormSplitAndMergeSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormStyleGallery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EngineCommand\ZoomToLayer.cs" />
+    <Compile Include="EngineCommand\SetLayerProperty.cs" />
+    <Compile Include="EngineCommand\SpatialSearchCommand.cs" />
+    <Compile Include="EngineCommand\JoinTableCommand.cs" />
+    <Compile Include="EngineCommand\RelateCommand.cs" />
+    <Compile Include="EngineCommand\AttributeSumCommand.cs" />
+    <Compile Include="EngineCommand\AddAndDeleteFieldCommand.cs" />
+    <Compile Include="EngineCommand\HyperLinkSettingCommand.cs" />
+    <Compile Include="EngineCommand\MergeCommand.cs" />
+    <Compile Include="EngineCommand\SplitAndMergeSettingCommand.cs" />
+    <Compile Include="Ui\FormAttributeSum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormAttributeSum.designer.cs">
+      <DependentUpon>FormAttributeSum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormAttributeSumResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormAttributeSumResult.designer.cs">
+      <DependentUpon>FormAttributeSumResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormExportShapeFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormExportShapeFile.designer.cs">
+      <DependentUpon>FormExportShapeFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormJoinTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormJoinTable.designer.cs">
+      <DependentUpon>FormJoinTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormLabelSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormLabelSetting.designer.cs">
+      <DependentUpon>FormLabelSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormManageHyperlinks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormManageHyperlinks.Designer.cs">
+      <DependentUpon>FormManageHyperlinks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormSymbolSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormSymbolSettings.designer.cs">
+      <DependentUpon>FormSymbolSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormRelate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormRelate.designer.cs">
+      <DependentUpon>FormRelate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormRemoveJoin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormRemoveJoin.Designer.cs">
+      <DependentUpon>FormRemoveJoin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormRemoveRelate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormRemoveRelate.Designer.cs">
+      <DependentUpon>FormRemoveRelate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormSpatialSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormSpatialSearch.designer.cs">
+      <DependentUpon>FormSpatialSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormTableView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormTableView.designer.cs">
+      <DependentUpon>FormTableView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormText.Designer.cs">
+      <DependentUpon>FormText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\FormVersionInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormVersionInfo.Designer.cs">
+      <DependentUpon>FormVersionInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\LayerTreeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ui\LayerTreeView.Designer.cs">
+      <DependentUpon>LayerTreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\LightCatalogView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ui\LightCatalogView.designer.cs">
+      <DependentUpon>LightCatalogView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\LightTreeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ui\LightTreeView.designer.cs">
+      <DependentUpon>LightTreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\MainForm.designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ui\FormLegendSettings2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FormLegendSettings2.designer.cs">
+      <DependentUpon>FormLegendSettings2.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Ui\FormAttributeSum.resx">
+      <DependentUpon>FormAttributeSum.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormAttributeSumResult.resx">
+      <DependentUpon>FormAttributeSumResult.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormCompositeInsert.resx">
+      <DependentUpon>FormCompositeInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormExportShapeFile.resx">
+      <DependentUpon>FormExportShapeFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormJoinTable.resx">
+      <DependentUpon>FormJoinTable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormLabelSetting.resx">
+      <DependentUpon>FormLabelSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormSymbolSettings.resx">
+      <DependentUpon>FormSymbolSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormRelate.resx">
+      <DependentUpon>FormRelate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormRemoveJoin.resx">
+      <DependentUpon>FormRemoveJoin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormRemoveRelate.resx">
+      <DependentUpon>FormRemoveRelate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormSpatialSearch.resx">
+      <DependentUpon>FormSpatialSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\LayerTreeView.resx">
+      <DependentUpon>LayerTreeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\UserControlExportMap.resx">
+      <DependentUpon>UserControlExportMap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Ui\FormLegendSettings2.resx">
+      <DependentUpon>FormLegendSettings2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="log4net.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Ui\ProgressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\ProgressForm.Designer.cs">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\UserControlExportMap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ui\UserControlExportMap.designer.cs">
+      <DependentUpon>UserControlExportMap.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.ico" />
+    <Content Include="Earth.ico" />
+    <None Include="Resources\FieldCalculate.png" />
+    <None Include="Resources\Version.png" />
+    <None Include="Resources\SpetialSearch.png" />
+    <None Include="Resources\SelectLayer.png" />
+    <None Include="Resources\Option.png" />
+    <None Include="Resources\MeasureTool16.png" />
+    <None Include="Resources\MapExport.png" />
+    <None Include="Resources\Intersect.png" />
+    <None Include="Resources\Georeference.png" />
+    <None Include="Resources\Close.png" />
+    <None Include="Resources\AtttrTotal.png" />
+    <None Include="Resources\AttrSearch.png" />
+    <None Include="Resources\AttrRelateCancel.png" />
+    <None Include="Resources\AttrRelate.png" />
+    <None Include="Resources\AttrJoinCancel.png" />
+    <None Include="Resources\AttrJoin.png" />
+    <None Include="Resources\AddXYData.png" />
+    <None Include="Resources\AddCadData.png" />
+    <EmbeddedResource Include="EngineCommand\OpenDocument.bmp" />
+    <EmbeddedResource Include="Ui\FormAddAndDeleteField.resx">
+      <DependentUpon>FormAddAndDeleteField.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormAddQueryLayer.resx">
+      <DependentUpon>FormAddQueryLayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormAddXYData.resx">
+      <DependentUpon>FormAddXYData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormArcGISServerConnect.resx">
+      <DependentUpon>FormArcGISServerConnect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormAttributelSearch.resx">
+      <DependentUpon>FormAttributelSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormAttributeTable.resx">
+      <DependentUpon>FormAttributeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormDataFrameProjection.resx">
+      <DependentUpon>FormDataFrameProjection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormDatasource.resx">
+      <DependentUpon>FormDatasource.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormDefineFieldNameAlias.resx">
+      <DependentUpon>FormDefineFieldNameAlias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormEditOption.resx">
+      <DependentUpon>FormEditOption.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormExecuteGP.resx">
+      <DependentUpon>FormExecuteGP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormFieldCalculate.resx">
+      <DependentUpon>FormFieldCalculate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormGeometryCalculate.resx">
+      <DependentUpon>FormGeometryCalculate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormGeoReference.resx">
+      <DependentUpon>FormGeoReference.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormGeoRefRectify.resx">
+      <DependentUpon>FormGeoRefRectify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormGISDataSelectDialog.resx">
+      <DependentUpon>FormGISDataSelectDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormIntersect.resx">
+      <DependentUpon>FormIntersect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormLegendSettings.resx">
+      <DependentUpon>FormLegendSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormOLEDBConnect.resx">
+      <DependentUpon>FormOLEDBConnect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormOptionSettings.resx">
+      <DependentUpon>FormOptionSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormProgressManager.resx">
+      <DependentUpon>FormProgressManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormScaleBarSettings.resx">
+      <DependentUpon>FormScaleBarSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormScaleRange.resx">
+      <DependentUpon>FormScaleRange.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormSelectableLayerSettings.resx">
+      <DependentUpon>FormSelectableLayerSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormSelectTable.resx">
+      <DependentUpon>FormSelectTable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormSplitAndMergeSetting.resx">
+      <DependentUpon>FormSplitAndMergeSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormStyleGallery.resx">
+      <DependentUpon>FormStyleGallery.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormManageHyperlinks.resx">
+      <DependentUpon>FormManageHyperlinks.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormTableView.resx">
+      <DependentUpon>FormTableView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\FormText.resx">
+      <DependentUpon>FormText.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EngineCommand\PageSetUpCommand.bmp" />
+    <EmbeddedResource Include="EngineCommand\PrinitPreviewCommand.bmp" />
+    <EmbeddedResource Include="EngineCommand\PrinitPageLayoutCommand.bmp" />
+    <EmbeddedResource Include="EngineCommand\ResetPageLayoutCommand.bmp" />
+    <EmbeddedResource Include="EngineCommand\CreateNorthArrow.bmp" />
+    <EmbeddedResource Include="EngineCommand\CreateScaleBar.bmp" />
+    <EmbeddedResource Include="EngineCommand\CreateTextElement.bmp" />
+    <EmbeddedResource Include="Ui\FormVersionInfo.resx">
+      <DependentUpon>FormVersionInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EngineCommand\SaveDocument.bmp" />
+    <EmbeddedResource Include="EngineCommand\SelectionFeatureZoomCommand.bmp" />
+    <EmbeddedResource Include="EngineCommand\InsertPictureCommand.bmp" />
+    <EmbeddedResource Include="Ui\LightCatalogView.resx">
+      <DependentUpon>LightCatalogView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ui\LightTreeView.resx">
+      <DependentUpon>LightTreeView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EngineCommand\AttributeSearchCommand.bmp" />
+    <EmbeddedResource Include="Ui\ProgressForm.resx">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EngineCommand\SymbolSettingsCommand.bmp" />
+    <EmbeddedResource Include="EngineCommand\CreateLegend.bmp" />
+    <EmbeddedResource Include="EngineCommand\OpenAttributeTable.bmp" />
+    <EmbeddedResource Include="EngineCommand\CreateNewDocument.bmp" />
+    <EmbeddedResource Include="EngineCommand\RemoveLayer.bmp" />
+    <EmbeddedResource Include="EngineCommand\GeoRef_AddControlPointTool.cur" />
+    <EmbeddedResource Include="EngineCommand\GeoRef_AddControlPointTool.bmp" />
+    <EmbeddedResource Include="EngineCommand\GeoReferenceCommand.bmp" />
+    <EmbeddedResource Include="EngineCommand\SaveLayer.bmp" />
+    <EmbeddedResource Include="EngineCommand\ExportShapeFile.bmp" />
+    <EmbeddedResource Include="EngineCommand\LayerFieldCalculatorCommand.bmp" />
+    <EmbeddedResource Include="EngineCommand\LayerGeometryCalculatorCommand.bmp" />
+    <EmbeddedResource Include="EngineCommand\ZoomToLayer.bmp" />
+    <EmbeddedResource Include="EngineCommand\AddBaseMapLayerCommand.bmp" />
+    <EmbeddedResource Include="EngineCommand\AddGroupLayerCommand.bmp" />
+    <EmbeddedResource Include="EngineCommand\SpatialSearchCommand.bmp" />
+    <EmbeddedResource Include="EngineCommand\JoinTableCommand.bmp" />
+    <EmbeddedResource Include="EngineCommand\RelateCommand.bmp" />
+    <EmbeddedResource Include="EngineCommand\IntersectCommand.bmp" />
+    <Content Include="Image\CheckedBox.bmp" />
+    <Content Include="Image\CoordinateSystem16.png" />
+    <Content Include="Image\GroupLayer.bmp" />
+    <Content Include="Image\LayerBasemap16.png" />
+    <Content Include="Image\LayerGroup16.png" />
+    <Content Include="Image\LayerPolygon_C_16.png" />
+    <Content Include="Image\LayerRaster16.png" />
+    <Content Include="Image\Refresh.bmp" />
+    <Content Include="Image\UncheckedBox.bmp" />
+    <Content Include="Image\ESRIJapanLogo_R.JPG" />
+    <Content Include="Lib\log4net.dll" />
+    <None Include="Resources\CadastralJobSaveToFile16.png" />
+    <None Include="Resources\CadastralJobLoad16.png" />
+    <None Include="Resources\GenericWarning16.png" />
+    <None Include="Resources\GenericExclamation_B_16.png" />
+    <None Include="Resources\menuAddData1.bmp" />
+    <None Include="Resources\menuAddData.bmp" />
+    <None Include="Resources\menuDataAdd.bmp" />
+    <None Include="Resources\TOC_Expand.png" />
+    <None Include="Resources\TOC_Collapsed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FileDlgExtenders\FileDlgExtenders.csproj">
+      <Project>{d293fda6-d69e-4e1d-82c2-57425ec5df43}</Project>
+      <Name>FileDlgExtenders</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy $(ProjectDir)\log4net.config $(TargetDir)
+copy $(ProjectDir)\GISLight10Settings.xml $(TargetDir)
+xcopy /s /y $(ProjectDir)script $(TargetDir)\script\</PostBuildEvent>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

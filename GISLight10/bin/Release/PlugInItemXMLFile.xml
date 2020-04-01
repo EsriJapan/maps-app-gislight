@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<PlugInInfo>
+  <PlugInDllPath>\plugins</PlugInDllPath>
+
+  <PlugInItem>
+    <Name></Name>
+    <Parameter></Parameter>
+  </PlugInItem>
+
+  <PlugInItem>
+    <Name></Name>
+  </PlugInItem>
+
+  <PlugInItem>
+    <Name></Name>
+    <Parameter></Parameter>
+    <Parameter></Parameter>
+    <Parameter></Parameter>
+  </PlugInItem>
+
+  <PlugInItem>
+    <Name></Name>
+    <Parameter></Parameter>
+    <Parameter></Parameter>
+    <Parameter></Parameter>
+  </PlugInItem>
+
+</PlugInInfo>

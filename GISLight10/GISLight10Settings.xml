@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ViewerPlus>
+  <UserSettings>
+
+    <!-- 属性テーブル設定 -->
+    <AttributeTable>
+      <!-- 1ページあたりの表示最大レコード数 -->
+      <AttributeTableDisplayOIDMax max="100000">100</AttributeTableDisplayOIDMax>
+      <AttributeTableDisplayAftDecPntLength>6</AttributeTableDisplayAftDecPntLength>
+    </AttributeTable>
+
+    <!-- 属性検索設定 -->
+    <AttributeSearch>
+      <!-- 個別値取得最大数 -->
+      <IndividualValueDisplayMax max="5000">100</IndividualValueDisplayMax>
+    </AttributeSearch>
+
+    <!-- シンボル設定 -->
+    <SymbolSettings>
+      <!-- 個別値分類の最大分類数 -->
+      <UniqueValueMax max="5000">500</UniqueValueMax>
+    </SymbolSettings>
+
+    <!-- 図形・属性編集設定 -->
+    <Editor>
+      <!-- スプリットポリシー -->
+      <EditorSplitField>0</EditorSplitField>
+      <!-- スプリットポリシー(数値型フィールド) -->
+      <EditorSplitNumField>0</EditorSplitNumField>
+      <!-- スプリットポリシー(日付型フィールド) -->
+      <EditorSplitDateField>0</EditorSplitDateField>
+      <!-- マージポリシー -->
+      <EditorMargeField>0</EditorMargeField>
+      <!-- マージポリシー(数値型フィールド) -->
+      <EditorMargeNumField>0</EditorMargeNumField>
+      <!-- マージポリシー(日付型フィールド) -->
+      <EditorMargeDateField>0</EditorMargeDateField>
+    </Editor>
+
+    <!-- 編集オプション -->
+    <EditOption>
+      <!-- スナップ許容値 -->
+      <SnapTolerance max="1000000">7</SnapTolerance>
+      <!-- 移動抑制許容値 -->
+      <StickyMoveTolerance max="1000000">0</StickyMoveTolerance>
+      <!-- ストリーム許容値 -->
+      <StreamTolerance max="1000000">0</StreamTolerance>
+      <!-- グループ化する頂点数 -->
+      <StreamGroupingCount max="1000000">50</StreamGroupingCount>
+    </EditOption>
+
+    <!-- カスタムカラー -->
+    <CustomColors>
+      <int>16777215</int>
+      <int>16777215</int>
+      <int>16777215</int>
+      <int>16777215</int>
+      <int>16777215</int>
+      <int>16777215</int>
+      <int>16777215</int>
+      <int>16777215</int>
+      <int>16777215</int>
+      <int>16777215</int>
+      <int>16777215</int>
+      <int>16777215</int>
+      <int>16777215</int>
+      <int>16777215</int>
+      <int>16777215</int>
+      <int>16777215</int>
+    </CustomColors>
+    
+    <!-- マップエクスポート設定 -->
+    <ExportMap>
+      <!-- 指定可能な最大解像度 -->
+      <ExportMapResolutionMax>1200</ExportMapResolutionMax>
+    </ExportMap>
+
+    <!-- ジオメトリ演算 -->
+    <CalculateGeometry>
+      <!-- 小数点以下の桁数 -->
+      <DecimalPlaces>3</DecimalPlaces>
+    </CalculateGeometry>
+    
+    <!-- フィールド名-->
+    <FieldName>
+      <!-- 別名を使用スイッチ (0:使用しない, 1:使用する)-->
+      <UseAlias>0</UseAlias>
+    </FieldName>
+    
+    <!-- ジオプロセシング-->
+    <Geoprocessing>
+      <!-- バックグラウンド実行のスイッチ (0:フォアグラウンド実行, 1:バックグラウンド実行)-->
+      <GeoprocessingBackground>0</GeoprocessingBackground>
+    </Geoprocessing>
+     
+    <!-- フォルダ接続 -->
+    <ConnectFolders> </ConnectFolders>
+  </UserSettings>
+</ViewerPlus>

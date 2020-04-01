@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GISLight10", "GISLight10.csproj", "{5C161F2E-1FEE-4E3D-AE99-6C8C78C4C4ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDlgExtenders", "..\FileDlgExtenders\FileDlgExtenders.csproj", "{D293FDA6-D69E-4E1D-82C2-57425EC5DF43}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "GISLight_Setup", "GISLight_Setup\GISLight_Setup.vdproj", "{12941E62-3220-4966-B1B6-7897BAEC2CD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C161F2E-1FEE-4E3D-AE99-6C8C78C4C4ED}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5C161F2E-1FEE-4E3D-AE99-6C8C78C4C4ED}.Debug|x86.Build.0 = Debug|Any CPU
+		{5C161F2E-1FEE-4E3D-AE99-6C8C78C4C4ED}.Release|x86.ActiveCfg = Release|Any CPU
+		{5C161F2E-1FEE-4E3D-AE99-6C8C78C4C4ED}.Release|x86.Build.0 = Release|Any CPU
+		{D293FDA6-D69E-4E1D-82C2-57425EC5DF43}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D293FDA6-D69E-4E1D-82C2-57425EC5DF43}.Debug|x86.Build.0 = Debug|Any CPU
+		{D293FDA6-D69E-4E1D-82C2-57425EC5DF43}.Release|x86.ActiveCfg = Release|Any CPU
+		{D293FDA6-D69E-4E1D-82C2-57425EC5DF43}.Release|x86.Build.0 = Release|Any CPU
+		{12941E62-3220-4966-B1B6-7897BAEC2CD9}.Debug|x86.ActiveCfg = Debug
+		{12941E62-3220-4966-B1B6-7897BAEC2CD9}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D21D88EA-00FE-4D0A-85BF-D2239EA5FDAA}
+	EndGlobalSection
+EndGlobal

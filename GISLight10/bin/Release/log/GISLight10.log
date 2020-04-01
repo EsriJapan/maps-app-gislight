@@ -1,0 +1,1267 @@
+2011-07-19 17:17:43,977 [1] INFO  - GISLight10開始
+2011-07-19 17:17:45,936 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 17:17:45,938 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 17:17:45,942 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 17:17:45,946 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-19 17:17:45,957 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:17:47,301 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:17:47,311 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:17:48,095 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:17:55,398 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 17:17:55,403 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 17:17:58,640 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2011-07-19 17:17:58,649 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 17:17:58,708 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-19 17:17:58,805 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:17:58,964 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 17:17:58,970 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 17:17:59,465 [1] DEBUG - ItemDraw
+2011-07-19 17:17:59,597 [1] DEBUG - ItemDraw
+2011-07-19 17:17:59,635 [1] DEBUG - ItemDraw
+2011-07-19 17:17:59,637 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2011-07-19 17:17:59,645 [1] DEBUG - ItemDraw
+2011-07-19 17:17:59,645 [1] DEBUG - ItemDraw
+2011-07-19 17:17:59,646 [1] DEBUG - ItemDraw
+2011-07-19 17:17:59,646 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 17:17:59,680 [1] DEBUG - ItemDraw
+2011-07-19 17:17:59,705 [1] DEBUG - ItemDraw
+2011-07-19 17:17:59,706 [1] DEBUG - ItemDraw
+2011-07-19 17:17:59,706 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-19 17:17:59,713 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:18:02,476 [1] DEBUG - PageLayout CurrentTool Inde x= 0
+2011-07-19 17:18:14,605 [1] DEBUG - PageLayout CurrentTool Inde x= 0
+2011-07-19 17:18:42,833 [1] DEBUG - PageLayout CurrentTool Inde x= 0
+2011-07-19 17:18:47,799 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 17:18:47,802 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 17:18:48,276 [1] DEBUG - ItemDraw
+2011-07-19 17:18:48,413 [1] DEBUG - ItemDraw
+2011-07-19 17:18:48,439 [1] DEBUG - ItemDraw
+2011-07-19 17:18:48,440 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2011-07-19 17:18:48,447 [1] DEBUG - ItemDraw
+2011-07-19 17:18:48,450 [1] DEBUG - ItemDraw
+2011-07-19 17:18:48,453 [1] DEBUG - ItemDraw
+2011-07-19 17:18:48,453 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 17:18:48,487 [1] DEBUG - ItemDraw
+2011-07-19 17:18:48,511 [1] DEBUG - ItemDraw
+2011-07-19 17:18:48,512 [1] DEBUG - ItemDraw
+2011-07-19 17:18:48,512 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-19 17:18:48,526 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:18:51,618 [1] DEBUG - シンボル設定表示開始
+2011-07-19 17:18:51,815 [1] DEBUG - シンボル設定初期表示処理開始
+2011-07-19 17:18:52,663 [1] ERROR - The specified filename is invalid
+2011-07-19 17:18:52,691 [1] ERROR -    場所 ESRI.ArcGIS.Controls.SymbologyControlClass.ISymbologyControl_LoadStyleFile(String fileName)
+   場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.GetColorRampFromStyleGallery(String symbolName) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 4749
+2011-07-19 17:18:52,735 [1] DEBUG - シンボル設定初期表示処理終了
+2011-07-19 17:19:02,852 [1] DEBUG - 個別値表示更新処理開始
+2011-07-19 17:19:02,878 [1] DEBUG - DefineUniqueValueRenderer STARTED
+2011-07-19 17:19:02,880 [1] DEBUG - UsingMemorySize Before GC :1662064 byte
+2011-07-19 17:19:02,922 [1] DEBUG - UsingMemorySize After  GC :1113876 byte
+2011-07-19 17:19:02,963 [1] DEBUG - feature class field count=19
+2011-07-19 17:19:02,965 [1] DEBUG - getfeature layer field count=35
+2011-07-19 17:19:02,965 [1] DEBUG - 個別値全件数 = 556
+2011-07-19 17:19:03,126 [1] DEBUG - UniqueValueRenderer Value Set Loop STARTED
+2011-07-19 17:19:03,150 [1] DEBUG - UniqueValueRenderer Value Set Loop ENDED
+2011-07-19 17:19:03,153 [1] DEBUG - UniqueValueRenderer Symbol Set Color Loop STARTED
+2011-07-19 17:19:03,166 [1] DEBUG - UniqueValueRenderer Symbol Set Color Loop ENDED
+2011-07-19 17:19:03,166 [1] DEBUG - DefineUniqueValueRenderer ENDED Normal
+2011-07-19 17:19:03,166 [1] DEBUG - DefineUniqueValueRenderer Exit
+2011-07-19 17:19:03,170 [1] DEBUG - UniqueValueRenderer Preview Set STARTED:14
+2011-07-19 17:19:03,174 [1] DEBUG - UniqueValueRenderer Preview Set :0件目
+2011-07-19 17:19:03,175 [1] DEBUG - UniqueValueRenderer Preview Set :1件目
+2011-07-19 17:19:03,175 [1] DEBUG - UniqueValueRenderer Preview Set :2件目
+2011-07-19 17:19:03,177 [1] DEBUG - UniqueValueRenderer Preview Set :3件目
+2011-07-19 17:19:03,177 [1] DEBUG - UniqueValueRenderer Preview Set :4件目
+2011-07-19 17:19:03,179 [1] DEBUG - UniqueValueRenderer Preview Set :5件目
+2011-07-19 17:19:03,179 [1] DEBUG - UniqueValueRenderer Preview Set :6件目
+2011-07-19 17:19:03,179 [1] DEBUG - UniqueValueRenderer Preview Set :7件目
+2011-07-19 17:19:03,180 [1] DEBUG - UniqueValueRenderer Preview Set :8件目
+2011-07-19 17:19:03,180 [1] DEBUG - UniqueValueRenderer Preview Set :9件目
+2011-07-19 17:19:03,180 [1] DEBUG - UniqueValueRenderer Preview Set :10件目
+2011-07-19 17:19:03,181 [1] DEBUG - UniqueValueRenderer Preview Set :11件目
+2011-07-19 17:19:03,181 [1] DEBUG - UniqueValueRenderer Preview Set :12件目
+2011-07-19 17:19:03,181 [1] DEBUG - UniqueValueRenderer Preview Set :13件目
+2011-07-19 17:19:03,182 [1] DEBUG - UniqueValueRenderer Preview Set ENDED:14
+2011-07-19 17:19:03,242 [1] DEBUG - 個別値表示更新処理終了
+2011-07-19 17:19:11,196 [1] DEBUG - buttonOpenImageFile_Click UsingMemorySize Before GC :1498900 byte
+2011-07-19 17:19:11,236 [1] DEBUG - buttonOpenImageFile_Click UsingMemorySize After  GC :1119596 byte
+2011-07-19 17:19:11,330 [1] ERROR - The specified filename is invalid
+2011-07-19 17:19:11,335 [1] ERROR -    場所 System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   場所 ESRI.ArcGIS.Controls.ISymbologyControlDefault.LoadStyleFile(String fileName)
+   場所 ESRI.ArcGIS.Controls.AxSymbologyControl.LoadStyleFile(String fileName)
+   場所 ESRIJapan.GISLight10.Ui.FormStyleGallery.LoadStyle() 場所 C:\work\GISLight10\Ui\FormStyleGallery.cs:行 180
+   場所 ESRIJapan.GISLight10.Ui.FormStyleGallery..ctor(IRgbColor rgbColor, Int32 mode) 場所 C:\work\GISLight10\Ui\FormStyleGallery.cs:行 139
+   場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.buttonOpenImageFile_Click(Object sender, EventArgs e) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 4587
+2011-07-19 17:19:12,628 [1] DEBUG - End OF buttonOpenImageFile_Click UsingMemorySize Before GC :1258860 byte
+2011-07-19 17:19:12,664 [1] DEBUG - End Of buttonOpenImageFile_Click UsingMemorySize After  GC :1104172 byte
+2011-07-19 17:19:14,664 [1] DEBUG - シンボル設定画面終了
+2011-07-19 17:19:14,721 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:19:17,856 [1] INFO  - GISLight10終了
+2011-07-19 17:22:12,693 [1] INFO  - GISLight10開始
+2011-07-19 17:22:13,575 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 17:22:13,576 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 17:22:13,579 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 17:22:13,586 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-19 17:22:13,595 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:22:16,266 [1] DEBUG - PageLayout CurrentTool Inde x= 0
+2011-07-19 17:22:20,495 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 17:22:20,496 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 17:22:20,498 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 17:22:20,500 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-19 17:22:20,512 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:22:24,737 [1] INFO  - GISLight10終了
+2011-07-19 17:23:35,045 [1] INFO  - GISLight10開始
+2011-07-19 17:23:44,981 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 17:23:45,023 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 17:23:46,090 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 17:23:46,106 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-19 17:23:46,114 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:23:49,588 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:23:59,644 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:24:30,675 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 17:24:30,707 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 17:24:30,718 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 17:24:30,724 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-19 17:24:30,732 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:24:31,442 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 17:24:31,449 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 17:24:40,031 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 17:24:40,066 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 17:24:43,198 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2011-07-19 17:24:43,232 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 17:24:43,458 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-19 17:24:43,600 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:24:43,826 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:24:45,978 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:24:46,866 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:24:53,408 [1] DEBUG - PageLayout CurrentTool Inde x= 0
+2011-07-19 17:25:09,007 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 17:25:09,016 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 17:25:09,650 [1] DEBUG - ItemDraw
+2011-07-19 17:25:10,092 [1] DEBUG - ItemDraw
+2011-07-19 17:25:10,173 [1] DEBUG - ItemDraw
+2011-07-19 17:25:10,174 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2011-07-19 17:25:10,179 [1] DEBUG - ItemDraw
+2011-07-19 17:25:10,180 [1] DEBUG - ItemDraw
+2011-07-19 17:25:10,182 [1] DEBUG - ItemDraw
+2011-07-19 17:25:10,183 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 17:25:10,272 [1] DEBUG - ItemDraw
+2011-07-19 17:25:10,334 [1] DEBUG - ItemDraw
+2011-07-19 17:25:10,335 [1] DEBUG - ItemDraw
+2011-07-19 17:25:10,336 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-19 17:25:10,353 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:25:15,523 [1] DEBUG - シンボル設定表示開始
+2011-07-19 17:25:16,041 [1] DEBUG - シンボル設定初期表示処理開始
+2011-07-19 17:25:16,846 [1] ERROR - The specified filename is invalid
+2011-07-19 17:25:17,178 [1] ERROR -    場所 ESRI.ArcGIS.Controls.SymbologyControlClass.ISymbologyControl_LoadStyleFile(String fileName)
+   場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.GetColorRampFromStyleGallery(String symbolName) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 4749
+2011-07-19 17:25:17,305 [1] DEBUG - シンボル設定初期表示処理終了
+2011-07-19 17:25:19,987 [1] DEBUG - buttonOpenImageFile_Click UsingMemorySize Before GC :1565684 byte
+2011-07-19 17:25:20,104 [1] DEBUG - buttonOpenImageFile_Click UsingMemorySize After  GC :1153688 byte
+2011-07-19 17:25:24,713 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:25:28,906 [1] DEBUG - DefineUniqueValueRendererUpdate STARTED
+2011-07-19 17:25:28,908 [1] DEBUG - UsingMemorySize Before GC :1464984 byte
+2011-07-19 17:25:29,020 [1] DEBUG - UsingMemorySize After  GC :1162480 byte
+2011-07-19 17:25:29,026 [1] DEBUG - UniqueValueRenderer Value Set Loop STARTED
+2011-07-19 17:25:29,121 [1] DEBUG - UniqueValueRendererUpdate Value Set Loop ENDED
+2011-07-19 17:25:29,127 [1] DEBUG - UniqueValueRendererUpdate Symbol Set Color Loop STARTED
+2011-07-19 17:25:29,148 [1] DEBUG - UniqueValueRendererUpdate Symbol Set Color Loop ENDED
+2011-07-19 17:25:29,150 [1] DEBUG - DefineUniqueValueRendererUpdate ENDED Normal
+2011-07-19 17:25:29,150 [1] DEBUG - DefineUniqueValueRendererUpdate Exit
+2011-07-19 17:25:29,155 [1] DEBUG - UniqueValueRenderer Preview Set STARTED:43
+2011-07-19 17:25:29,163 [1] DEBUG - UniqueValueRenderer Preview Set :0件目
+2011-07-19 17:25:29,164 [1] DEBUG - UniqueValueRenderer Preview Set :1件目
+2011-07-19 17:25:29,165 [1] DEBUG - UniqueValueRenderer Preview Set :2件目
+2011-07-19 17:25:29,165 [1] DEBUG - UniqueValueRenderer Preview Set :3件目
+2011-07-19 17:25:29,166 [1] DEBUG - UniqueValueRenderer Preview Set :4件目
+2011-07-19 17:25:29,166 [1] DEBUG - UniqueValueRenderer Preview Set :5件目
+2011-07-19 17:25:29,166 [1] DEBUG - UniqueValueRenderer Preview Set :6件目
+2011-07-19 17:25:29,166 [1] DEBUG - UniqueValueRenderer Preview Set :7件目
+2011-07-19 17:25:29,168 [1] DEBUG - UniqueValueRenderer Preview Set :8件目
+2011-07-19 17:25:29,169 [1] DEBUG - UniqueValueRenderer Preview Set :9件目
+2011-07-19 17:25:29,169 [1] DEBUG - UniqueValueRenderer Preview Set :10件目
+2011-07-19 17:25:29,170 [1] DEBUG - UniqueValueRenderer Preview Set :11件目
+2011-07-19 17:25:29,171 [1] DEBUG - UniqueValueRenderer Preview Set :12件目
+2011-07-19 17:25:29,172 [1] DEBUG - UniqueValueRenderer Preview Set :13件目
+2011-07-19 17:25:29,172 [1] DEBUG - UniqueValueRenderer Preview Set :14件目
+2011-07-19 17:25:29,173 [1] DEBUG - UniqueValueRenderer Preview Set :15件目
+2011-07-19 17:25:29,173 [1] DEBUG - UniqueValueRenderer Preview Set :16件目
+2011-07-19 17:25:29,174 [1] DEBUG - UniqueValueRenderer Preview Set :17件目
+2011-07-19 17:25:29,174 [1] DEBUG - UniqueValueRenderer Preview Set :18件目
+2011-07-19 17:25:29,175 [1] DEBUG - UniqueValueRenderer Preview Set :19件目
+2011-07-19 17:25:29,175 [1] DEBUG - UniqueValueRenderer Preview Set :20件目
+2011-07-19 17:25:29,176 [1] DEBUG - UniqueValueRenderer Preview Set :21件目
+2011-07-19 17:25:29,176 [1] DEBUG - UniqueValueRenderer Preview Set :22件目
+2011-07-19 17:25:29,177 [1] DEBUG - UniqueValueRenderer Preview Set :23件目
+2011-07-19 17:25:29,178 [1] DEBUG - UniqueValueRenderer Preview Set :24件目
+2011-07-19 17:25:29,178 [1] DEBUG - UniqueValueRenderer Preview Set :25件目
+2011-07-19 17:25:29,179 [1] DEBUG - UniqueValueRenderer Preview Set :26件目
+2011-07-19 17:25:29,180 [1] DEBUG - UniqueValueRenderer Preview Set :27件目
+2011-07-19 17:25:29,181 [1] DEBUG - UniqueValueRenderer Preview Set :28件目
+2011-07-19 17:25:29,181 [1] DEBUG - UniqueValueRenderer Preview Set :29件目
+2011-07-19 17:25:29,182 [1] DEBUG - UniqueValueRenderer Preview Set :30件目
+2011-07-19 17:25:29,184 [1] DEBUG - UniqueValueRenderer Preview Set :31件目
+2011-07-19 17:25:29,185 [1] DEBUG - UniqueValueRenderer Preview Set :32件目
+2011-07-19 17:25:29,185 [1] DEBUG - UniqueValueRenderer Preview Set :33件目
+2011-07-19 17:25:29,186 [1] DEBUG - UniqueValueRenderer Preview Set :34件目
+2011-07-19 17:25:29,186 [1] DEBUG - UniqueValueRenderer Preview Set :35件目
+2011-07-19 17:25:29,188 [1] DEBUG - UniqueValueRenderer Preview Set :36件目
+2011-07-19 17:25:29,188 [1] DEBUG - UniqueValueRenderer Preview Set :37件目
+2011-07-19 17:25:29,194 [1] DEBUG - UniqueValueRenderer Preview Set :38件目
+2011-07-19 17:25:29,195 [1] DEBUG - UniqueValueRenderer Preview Set :39件目
+2011-07-19 17:25:29,195 [1] DEBUG - UniqueValueRenderer Preview Set :40件目
+2011-07-19 17:25:29,196 [1] DEBUG - UniqueValueRenderer Preview Set :41件目
+2011-07-19 17:25:29,197 [1] DEBUG - UniqueValueRenderer Preview Set :42件目
+2011-07-19 17:25:29,197 [1] DEBUG - UniqueValueRenderer Preview Set ENDED:43
+2011-07-19 17:25:29,297 [1] DEBUG - OpenColorRamp: IStyleGalleryItem Release After This ... 
+2011-07-19 17:25:29,391 [1] INFO  - StyleForm UsingMemorySize Before GC :1522928 byte
+2011-07-19 17:25:29,502 [1] INFO  - StyleForm UsingMemorySize After GC :1150732 byte
+2011-07-19 17:25:29,504 [1] DEBUG - OpenColorRamp: IStyleGalleryItem Release Ended
+2011-07-19 17:25:29,504 [1] DEBUG - End OF buttonOpenImageFile_Click UsingMemorySize Before GC :1167116 byte
+2011-07-19 17:25:29,534 [1] DEBUG - End Of buttonOpenImageFile_Click UsingMemorySize After  GC :1149232 byte
+2011-07-19 17:25:29,602 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:25:43,932 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:25:45,797 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:25:47,300 [1] DEBUG - buttonOpenSyleGallery_Click UsingMemorySize Before GC :1526064 byte
+2011-07-19 17:25:47,372 [1] DEBUG - buttonOpenSyleGallery_Click UsingMemorySize After  GC :1184320 byte
+2011-07-19 17:26:14,058 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:26:20,087 [1] DEBUG - DefineUniqueValueRendererUpdate STARTED
+2011-07-19 17:26:20,090 [1] DEBUG - UsingMemorySize Before GC :1777504 byte
+2011-07-19 17:26:20,337 [1] DEBUG - UsingMemorySize After  GC :1241856 byte
+2011-07-19 17:26:20,344 [1] DEBUG - UniqueValueRenderer Value Set Loop STARTED
+2011-07-19 17:26:20,374 [1] DEBUG - UniqueValueRendererUpdate Value Set Loop ENDED
+2011-07-19 17:26:20,375 [1] DEBUG - UniqueValueRendererUpdate Symbol Set Color Loop STARTED
+2011-07-19 17:26:20,382 [1] DEBUG - UniqueValueRendererUpdate Symbol Set Color Loop ENDED
+2011-07-19 17:26:20,382 [1] DEBUG - DefineUniqueValueRendererUpdate ENDED Normal
+2011-07-19 17:26:20,383 [1] DEBUG - DefineUniqueValueRendererUpdate Exit
+2011-07-19 17:26:20,383 [1] DEBUG - UniqueValueRenderer Preview Set STARTED:43
+2011-07-19 17:26:20,384 [1] DEBUG - UniqueValueRenderer Preview Set :0件目
+2011-07-19 17:26:20,385 [1] DEBUG - UniqueValueRenderer Preview Set :1件目
+2011-07-19 17:26:20,390 [1] DEBUG - UniqueValueRenderer Preview Set :2件目
+2011-07-19 17:26:20,390 [1] DEBUG - UniqueValueRenderer Preview Set :3件目
+2011-07-19 17:26:20,391 [1] DEBUG - UniqueValueRenderer Preview Set :4件目
+2011-07-19 17:26:20,391 [1] DEBUG - UniqueValueRenderer Preview Set :5件目
+2011-07-19 17:26:20,392 [1] DEBUG - UniqueValueRenderer Preview Set :6件目
+2011-07-19 17:26:20,393 [1] DEBUG - UniqueValueRenderer Preview Set :7件目
+2011-07-19 17:26:20,394 [1] DEBUG - UniqueValueRenderer Preview Set :8件目
+2011-07-19 17:26:20,399 [1] DEBUG - UniqueValueRenderer Preview Set :9件目
+2011-07-19 17:26:20,400 [1] DEBUG - UniqueValueRenderer Preview Set :10件目
+2011-07-19 17:26:20,400 [1] DEBUG - UniqueValueRenderer Preview Set :11件目
+2011-07-19 17:26:20,401 [1] DEBUG - UniqueValueRenderer Preview Set :12件目
+2011-07-19 17:26:20,402 [1] DEBUG - UniqueValueRenderer Preview Set :13件目
+2011-07-19 17:26:20,403 [1] DEBUG - UniqueValueRenderer Preview Set :14件目
+2011-07-19 17:26:20,407 [1] DEBUG - UniqueValueRenderer Preview Set :15件目
+2011-07-19 17:26:20,408 [1] DEBUG - UniqueValueRenderer Preview Set :16件目
+2011-07-19 17:26:20,408 [1] DEBUG - UniqueValueRenderer Preview Set :17件目
+2011-07-19 17:26:20,409 [1] DEBUG - UniqueValueRenderer Preview Set :18件目
+2011-07-19 17:26:20,410 [1] DEBUG - UniqueValueRenderer Preview Set :19件目
+2011-07-19 17:26:20,410 [1] DEBUG - UniqueValueRenderer Preview Set :20件目
+2011-07-19 17:26:20,411 [1] DEBUG - UniqueValueRenderer Preview Set :21件目
+2011-07-19 17:26:20,411 [1] DEBUG - UniqueValueRenderer Preview Set :22件目
+2011-07-19 17:26:20,412 [1] DEBUG - UniqueValueRenderer Preview Set :23件目
+2011-07-19 17:26:20,412 [1] DEBUG - UniqueValueRenderer Preview Set :24件目
+2011-07-19 17:26:20,416 [1] DEBUG - UniqueValueRenderer Preview Set :25件目
+2011-07-19 17:26:20,416 [1] DEBUG - UniqueValueRenderer Preview Set :26件目
+2011-07-19 17:26:20,416 [1] DEBUG - UniqueValueRenderer Preview Set :27件目
+2011-07-19 17:26:20,416 [1] DEBUG - UniqueValueRenderer Preview Set :28件目
+2011-07-19 17:26:20,417 [1] DEBUG - UniqueValueRenderer Preview Set :29件目
+2011-07-19 17:26:20,418 [1] DEBUG - UniqueValueRenderer Preview Set :30件目
+2011-07-19 17:26:20,418 [1] DEBUG - UniqueValueRenderer Preview Set :31件目
+2011-07-19 17:26:20,419 [1] DEBUG - UniqueValueRenderer Preview Set :32件目
+2011-07-19 17:26:20,419 [1] DEBUG - UniqueValueRenderer Preview Set :33件目
+2011-07-19 17:26:20,422 [1] DEBUG - UniqueValueRenderer Preview Set :34件目
+2011-07-19 17:26:20,423 [1] DEBUG - UniqueValueRenderer Preview Set :35件目
+2011-07-19 17:26:20,424 [1] DEBUG - UniqueValueRenderer Preview Set :36件目
+2011-07-19 17:26:20,424 [1] DEBUG - UniqueValueRenderer Preview Set :37件目
+2011-07-19 17:26:20,425 [1] DEBUG - UniqueValueRenderer Preview Set :38件目
+2011-07-19 17:26:20,425 [1] DEBUG - UniqueValueRenderer Preview Set :39件目
+2011-07-19 17:26:20,426 [1] DEBUG - UniqueValueRenderer Preview Set :40件目
+2011-07-19 17:26:20,426 [1] DEBUG - UniqueValueRenderer Preview Set :41件目
+2011-07-19 17:26:20,427 [1] DEBUG - UniqueValueRenderer Preview Set :42件目
+2011-07-19 17:26:20,427 [1] DEBUG - UniqueValueRenderer Preview Set ENDED:43
+2011-07-19 17:26:20,754 [1] INFO  - StyleForm UsingMemorySize Before GC :1602304 byte
+2011-07-19 17:26:20,855 [1] INFO  - StyleForm UsingMemorySize After GC :1182224 byte
+2011-07-19 17:26:20,858 [1] DEBUG - End Of buttonOpenSyleGallery_Click UsingMemorySize Before GC :1190416 byte
+2011-07-19 17:26:20,889 [1] DEBUG - End Of buttonOpenSyleGallery_Click UsingMemorySize After  GC :1180724 byte
+2011-07-19 17:27:50,118 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:27:51,277 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:27:53,617 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:27:54,437 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:27:56,035 [1] DEBUG - buttonOKApply_Click Main Proc STARTED
+2011-07-19 17:27:56,155 [1] DEBUG - axMapControl1, TOC update STARTED
+2011-07-19 17:27:56,164 [1] DEBUG - ContentsChanged
+2011-07-19 17:27:56,228 [1] DEBUG - axPageLayoutControl1.Refresh ENDED
+2011-07-19 17:27:56,229 [1] DEBUG - UsingMemorySize Before GC :1541172 byte
+2011-07-19 17:27:56,317 [1] DEBUG - UsingMemorySize After GC :1174684 byte
+2011-07-19 17:27:56,317 [1] DEBUG - OK or Apply ENDED
+2011-07-19 17:27:56,320 [1] DEBUG - シンボル設定画面終了
+2011-07-19 17:27:56,392 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 17:27:56,395 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 17:27:57,077 [1] DEBUG - ItemDraw
+2011-07-19 17:27:57,480 [1] DEBUG - ItemDraw
+2011-07-19 17:27:57,551 [1] DEBUG - ItemDraw
+2011-07-19 17:27:57,553 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2011-07-19 17:27:57,562 [1] DEBUG - ItemDraw
+2011-07-19 17:27:57,562 [1] DEBUG - ItemDraw
+2011-07-19 17:27:57,568 [1] DEBUG - ItemDraw
+2011-07-19 17:27:57,568 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 17:27:57,578 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:40:44,526 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 17:40:44,544 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 17:40:45,276 [1] DEBUG - ItemDraw
+2011-07-19 17:40:45,608 [1] DEBUG - ItemDraw
+2011-07-19 17:40:45,858 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 17:40:45,862 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 17:40:46,421 [1] DEBUG - ItemDraw
+2011-07-19 17:40:46,750 [1] DEBUG - ItemDraw
+2011-07-19 17:40:46,819 [1] DEBUG - ItemDraw
+2011-07-19 17:40:46,820 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2011-07-19 17:40:46,829 [1] DEBUG - ItemDraw
+2011-07-19 17:40:46,830 [1] DEBUG - ItemDraw
+2011-07-19 17:40:46,831 [1] DEBUG - ItemDraw
+2011-07-19 17:40:46,832 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 17:40:46,899 [1] DEBUG - ItemDraw
+2011-07-19 17:40:46,954 [1] DEBUG - ItemDraw
+2011-07-19 17:40:46,954 [1] DEBUG - ItemDraw
+2011-07-19 17:40:46,955 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-19 17:40:46,972 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:40:49,804 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:40:50,948 [1] DEBUG - シンボル設定表示開始
+2011-07-19 17:40:51,000 [1] DEBUG - シンボル設定初期表示処理開始
+2011-07-19 17:40:51,028 [1] DEBUG - シンボル設定初期表示処理終了
+2011-07-19 17:40:58,570 [1] DEBUG - 個別値表示更新処理開始
+2011-07-19 17:40:58,605 [1] DEBUG - DefineUniqueValueRenderer STARTED
+2011-07-19 17:40:58,608 [1] DEBUG - UsingMemorySize Before GC :1991232 byte
+2011-07-19 17:40:58,716 [1] DEBUG - UsingMemorySize After  GC :1164208 byte
+2011-07-19 17:40:58,719 [1] DEBUG - feature class field count=12
+2011-07-19 17:40:58,739 [1] DEBUG - getfeature layer field count=12
+2011-07-19 17:40:58,767 [1] DEBUG - 個別値全件数 = 8418
+2011-07-19 17:40:58,875 [1] DEBUG - UniqueValueRenderer Value Set Loop STARTED
+2011-07-19 17:40:59,463 [1] DEBUG - UniqueValueRenderer Value Set Loop ENDED
+2011-07-19 17:40:59,506 [1] ERROR - The specified filename is invalid
+2011-07-19 17:40:59,509 [1] ERROR -    場所 ESRI.ArcGIS.Controls.SymbologyControlClass.ISymbologyControl_LoadStyleFile(String fileName)
+   場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.GetColorRampFromStyleGallery(String symbolName) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 4749
+2011-07-19 17:40:59,677 [1] ERROR - オブジェクト参照がオブジェクト インスタンスに設定されていません。
+2011-07-19 17:40:59,699 [1] ERROR -    場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.GetEnumColors(IColorRamp colorRamp, Int32 count) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 2171
+   場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.DefineUniqueValueRenderer(String fieldName, IColorRamp colorRamp, ISymbol tsymbol, Boolean useCurrentColor, Boolean useColorRamp, Boolean deleteSymbol) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 2863
+2011-07-19 17:40:59,700 [1] DEBUG - DefineUniqueValueRenderer Exit
+2011-07-19 17:40:59,731 [1] ERROR - オブジェクト参照がオブジェクト インスタンスに設定されていません。
+2011-07-19 17:40:59,761 [1] ERROR -    場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.SetEachUniqueValueToListView(String fieldName, IUniqueValueRenderer pUniqueValueRenderer, Int32 currentIndex) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 1931
+   場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.UpdatePreview(IColorRamp colorRamp, ISymbol symbol, Boolean useCurrentColor, Boolean useColorRamp, Boolean deleteSymbol, Boolean fromColorRampOrSytle) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 3509
+   場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.DoButtonUpdatePreview() 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 4942
+2011-07-19 17:41:07,210 [1] DEBUG - 個別値表示更新処理開始
+2011-07-19 17:41:07,212 [1] DEBUG - DefineUniqueValueRenderer STARTED
+2011-07-19 17:41:07,212 [1] DEBUG - UsingMemorySize Before GC :1360816 byte
+2011-07-19 17:41:07,280 [1] DEBUG - UsingMemorySize After  GC :1121012 byte
+2011-07-19 17:41:07,283 [1] DEBUG - feature class field count=12
+2011-07-19 17:41:07,283 [1] DEBUG - getfeature layer field count=12
+2011-07-19 17:41:07,283 [1] DEBUG - 個別値全件数 = 8418
+2011-07-19 17:41:07,400 [1] DEBUG - UniqueValueRenderer Value Set Loop STARTED
+2011-07-19 17:41:07,710 [1] DEBUG - UniqueValueRenderer Value Set Loop ENDED
+2011-07-19 17:41:07,737 [1] ERROR - The specified filename is invalid
+2011-07-19 17:41:07,739 [1] ERROR -    場所 ESRI.ArcGIS.Controls.SymbologyControlClass.ISymbologyControl_LoadStyleFile(String fileName)
+   場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.GetColorRampFromStyleGallery(String symbolName) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 4749
+2011-07-19 17:41:07,754 [1] ERROR - オブジェクト参照がオブジェクト インスタンスに設定されていません。
+2011-07-19 17:41:07,755 [1] ERROR -    場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.GetEnumColors(IColorRamp colorRamp, Int32 count) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 2171
+   場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.DefineUniqueValueRenderer(String fieldName, IColorRamp colorRamp, ISymbol tsymbol, Boolean useCurrentColor, Boolean useColorRamp, Boolean deleteSymbol) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 2863
+2011-07-19 17:41:07,755 [1] DEBUG - DefineUniqueValueRenderer Exit
+2011-07-19 17:41:07,756 [1] ERROR - オブジェクト参照がオブジェクト インスタンスに設定されていません。
+2011-07-19 17:41:07,756 [1] ERROR -    場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.SetEachUniqueValueToListView(String fieldName, IUniqueValueRenderer pUniqueValueRenderer, Int32 currentIndex) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 1931
+   場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.UpdatePreview(IColorRamp colorRamp, ISymbol symbol, Boolean useCurrentColor, Boolean useColorRamp, Boolean deleteSymbol, Boolean fromColorRampOrSytle) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 3509
+   場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.DoButtonUpdatePreview() 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 4942
+2011-07-19 17:41:27,935 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:42:50,788 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:42:54,319 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:42:54,807 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:45:03,402 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:45:07,303 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:49:59,433 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:50:08,074 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:50:09,660 [1] DEBUG - シンボル設定画面終了
+2011-07-19 17:50:09,726 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:50:11,834 [1] DEBUG - シンボル設定表示開始
+2011-07-19 17:50:11,902 [1] DEBUG - シンボル設定初期表示処理開始
+2011-07-19 17:50:12,128 [1] ERROR - The specified filename is invalid
+2011-07-19 17:50:12,132 [1] ERROR -    場所 ESRI.ArcGIS.Controls.SymbologyControlClass.ISymbologyControl_LoadStyleFile(String fileName)
+   場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.GetColorRampFromStyleGallery(String symbolName) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 4749
+2011-07-19 17:50:12,244 [1] DEBUG - シンボル設定初期表示処理終了
+2011-07-19 17:50:16,476 [1] DEBUG - 個別値表示更新処理開始
+2011-07-19 17:50:16,550 [1] DEBUG - DefineUniqueValueRenderer STARTED
+2011-07-19 17:50:16,551 [1] DEBUG - UsingMemorySize Before GC :1756452 byte
+2011-07-19 17:50:16,652 [1] DEBUG - UsingMemorySize After  GC :1220744 byte
+2011-07-19 17:50:16,655 [1] DEBUG - feature class field count=19
+2011-07-19 17:50:16,655 [1] DEBUG - getfeature layer field count=35
+2011-07-19 17:50:16,656 [1] DEBUG - 個別値全件数 = 556
+2011-07-19 17:50:17,954 [1] DEBUG - UniqueValueRenderer Value Set Loop STARTED
+2011-07-19 17:50:17,991 [1] DEBUG - UniqueValueRenderer Value Set Loop ENDED
+2011-07-19 17:50:18,045 [1] DEBUG - UniqueValueRenderer Symbol Set Color Loop STARTED
+2011-07-19 17:50:18,048 [1] DEBUG - UniqueValueRenderer Symbol Set Color Loop ENDED
+2011-07-19 17:50:18,049 [1] DEBUG - DefineUniqueValueRenderer ENDED Normal
+2011-07-19 17:50:18,058 [1] DEBUG - DefineUniqueValueRenderer Exit
+2011-07-19 17:50:18,059 [1] DEBUG - UniqueValueRenderer Preview Set STARTED:14
+2011-07-19 17:50:18,065 [1] DEBUG - UniqueValueRenderer Preview Set :0件目
+2011-07-19 17:50:18,065 [1] DEBUG - UniqueValueRenderer Preview Set :1件目
+2011-07-19 17:50:18,066 [1] DEBUG - UniqueValueRenderer Preview Set :2件目
+2011-07-19 17:50:18,067 [1] DEBUG - UniqueValueRenderer Preview Set :3件目
+2011-07-19 17:50:18,068 [1] DEBUG - UniqueValueRenderer Preview Set :4件目
+2011-07-19 17:50:18,068 [1] DEBUG - UniqueValueRenderer Preview Set :5件目
+2011-07-19 17:50:18,069 [1] DEBUG - UniqueValueRenderer Preview Set :6件目
+2011-07-19 17:50:18,070 [1] DEBUG - UniqueValueRenderer Preview Set :7件目
+2011-07-19 17:50:18,071 [1] DEBUG - UniqueValueRenderer Preview Set :8件目
+2011-07-19 17:50:18,072 [1] DEBUG - UniqueValueRenderer Preview Set :9件目
+2011-07-19 17:50:18,095 [1] DEBUG - UniqueValueRenderer Preview Set :10件目
+2011-07-19 17:50:18,097 [1] DEBUG - UniqueValueRenderer Preview Set :11件目
+2011-07-19 17:50:18,099 [1] DEBUG - UniqueValueRenderer Preview Set :12件目
+2011-07-19 17:50:18,099 [1] DEBUG - UniqueValueRenderer Preview Set :13件目
+2011-07-19 17:50:18,100 [1] DEBUG - UniqueValueRenderer Preview Set ENDED:14
+2011-07-19 17:50:18,151 [1] DEBUG - 個別値表示更新処理終了
+2011-07-19 17:50:22,553 [1] DEBUG - シンボル設定画面終了
+2011-07-19 17:50:26,220 [1] DEBUG - シンボル設定表示開始
+2011-07-19 17:50:26,249 [1] DEBUG - シンボル設定初期表示処理開始
+2011-07-19 17:50:26,374 [1] DEBUG - シンボル設定初期表示処理終了
+2011-07-19 17:50:32,366 [1] DEBUG - 個別値表示更新処理開始
+2011-07-19 17:50:32,368 [1] DEBUG - DefineUniqueValueRenderer STARTED
+2011-07-19 17:50:32,368 [1] DEBUG - UsingMemorySize Before GC :1867912 byte
+2011-07-19 17:50:32,455 [1] DEBUG - UsingMemorySize After  GC :1209428 byte
+2011-07-19 17:50:32,458 [1] DEBUG - feature class field count=16
+2011-07-19 17:50:32,458 [1] DEBUG - getfeature layer field count=16
+2011-07-19 17:50:32,458 [1] DEBUG - 個別値全件数 = 20997
+2011-07-19 17:50:32,609 [1] DEBUG - UniqueValueRenderer Value Set Loop STARTED
+2011-07-19 17:50:35,749 [1] DEBUG - UniqueValueRenderer Value Set Loop ENDED
+2011-07-19 17:50:35,789 [1] ERROR - The specified filename is invalid
+2011-07-19 17:50:35,792 [1] ERROR -    場所 ESRI.ArcGIS.Controls.SymbologyControlClass.ISymbologyControl_LoadStyleFile(String fileName)
+   場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.GetColorRampFromStyleGallery(String symbolName) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 4749
+2011-07-19 17:50:35,815 [1] ERROR - オブジェクト参照がオブジェクト インスタンスに設定されていません。
+2011-07-19 17:50:35,816 [1] ERROR -    場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.GetEnumColors(IColorRamp colorRamp, Int32 count) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 2171
+   場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.DefineUniqueValueRenderer(String fieldName, IColorRamp colorRamp, ISymbol tsymbol, Boolean useCurrentColor, Boolean useColorRamp, Boolean deleteSymbol) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 2863
+2011-07-19 17:50:35,820 [1] DEBUG - DefineUniqueValueRenderer Exit
+2011-07-19 17:50:35,820 [1] ERROR - オブジェクト参照がオブジェクト インスタンスに設定されていません。
+2011-07-19 17:50:35,821 [1] ERROR -    場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.SetEachUniqueValueToListView(String fieldName, IUniqueValueRenderer pUniqueValueRenderer, Int32 currentIndex) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 1931
+   場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.UpdatePreview(IColorRamp colorRamp, ISymbol symbol, Boolean useCurrentColor, Boolean useColorRamp, Boolean deleteSymbol, Boolean fromColorRampOrSytle) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 3509
+   場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.DoButtonUpdatePreview() 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 4942
+2011-07-19 17:50:39,056 [1] DEBUG - シンボル設定画面終了
+2011-07-19 17:52:14,327 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:52:20,436 [1] DEBUG - シンボル設定表示開始
+2011-07-19 17:52:20,501 [1] DEBUG - シンボル設定初期表示処理開始
+2011-07-19 17:52:20,720 [1] ERROR - The specified filename is invalid
+2011-07-19 17:52:20,722 [1] ERROR -    場所 ESRI.ArcGIS.Controls.SymbologyControlClass.ISymbologyControl_LoadStyleFile(String fileName)
+   場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.GetColorRampFromStyleGallery(String symbolName) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 4749
+2011-07-19 17:52:20,765 [1] DEBUG - シンボル設定初期表示処理終了
+2011-07-19 17:52:35,166 [1] DEBUG - 個別値表示更新処理開始
+2011-07-19 17:52:35,168 [1] DEBUG - DefineUniqueValueRenderer STARTED
+2011-07-19 17:52:35,169 [1] DEBUG - UsingMemorySize Before GC :2421844 byte
+2011-07-19 17:52:35,365 [1] DEBUG - UsingMemorySize After  GC :1232688 byte
+2011-07-19 17:52:35,376 [1] DEBUG - feature class field count=19
+2011-07-19 17:52:35,377 [1] DEBUG - getfeature layer field count=35
+2011-07-19 17:52:35,377 [1] DEBUG - 個別値全件数 = 556
+2011-07-19 17:52:35,741 [1] DEBUG - UniqueValueRenderer Value Set Loop STARTED
+2011-07-19 17:52:35,799 [1] DEBUG - UniqueValueRenderer Value Set Loop ENDED
+2011-07-19 17:52:35,801 [1] DEBUG - UniqueValueRenderer Symbol Set Color Loop STARTED
+2011-07-19 17:52:35,804 [1] DEBUG - UniqueValueRenderer Symbol Set Color Loop ENDED
+2011-07-19 17:52:35,804 [1] DEBUG - DefineUniqueValueRenderer ENDED Normal
+2011-07-19 17:52:35,806 [1] DEBUG - DefineUniqueValueRenderer Exit
+2011-07-19 17:52:35,806 [1] DEBUG - UniqueValueRenderer Preview Set STARTED:23
+2011-07-19 17:52:35,808 [1] DEBUG - UniqueValueRenderer Preview Set :0件目
+2011-07-19 17:52:35,809 [1] DEBUG - UniqueValueRenderer Preview Set :1件目
+2011-07-19 17:52:35,809 [1] DEBUG - UniqueValueRenderer Preview Set :2件目
+2011-07-19 17:52:35,810 [1] DEBUG - UniqueValueRenderer Preview Set :3件目
+2011-07-19 17:52:35,811 [1] DEBUG - UniqueValueRenderer Preview Set :4件目
+2011-07-19 17:52:35,812 [1] DEBUG - UniqueValueRenderer Preview Set :5件目
+2011-07-19 17:52:35,813 [1] DEBUG - UniqueValueRenderer Preview Set :6件目
+2011-07-19 17:52:35,813 [1] DEBUG - UniqueValueRenderer Preview Set :7件目
+2011-07-19 17:52:35,814 [1] DEBUG - UniqueValueRenderer Preview Set :8件目
+2011-07-19 17:52:35,814 [1] DEBUG - UniqueValueRenderer Preview Set :9件目
+2011-07-19 17:52:35,815 [1] DEBUG - UniqueValueRenderer Preview Set :10件目
+2011-07-19 17:52:35,815 [1] DEBUG - UniqueValueRenderer Preview Set :11件目
+2011-07-19 17:52:35,816 [1] DEBUG - UniqueValueRenderer Preview Set :12件目
+2011-07-19 17:52:35,817 [1] DEBUG - UniqueValueRenderer Preview Set :13件目
+2011-07-19 17:52:35,817 [1] DEBUG - UniqueValueRenderer Preview Set :14件目
+2011-07-19 17:52:35,818 [1] DEBUG - UniqueValueRenderer Preview Set :15件目
+2011-07-19 17:52:35,818 [1] DEBUG - UniqueValueRenderer Preview Set :16件目
+2011-07-19 17:52:35,833 [1] DEBUG - UniqueValueRenderer Preview Set :17件目
+2011-07-19 17:52:35,835 [1] DEBUG - UniqueValueRenderer Preview Set :18件目
+2011-07-19 17:52:35,835 [1] DEBUG - UniqueValueRenderer Preview Set :19件目
+2011-07-19 17:52:35,836 [1] DEBUG - UniqueValueRenderer Preview Set :20件目
+2011-07-19 17:52:35,836 [1] DEBUG - UniqueValueRenderer Preview Set :21件目
+2011-07-19 17:52:35,837 [1] DEBUG - UniqueValueRenderer Preview Set :22件目
+2011-07-19 17:52:35,837 [1] DEBUG - UniqueValueRenderer Preview Set ENDED:23
+2011-07-19 17:52:35,909 [1] DEBUG - 個別値表示更新処理終了
+2011-07-19 17:52:49,609 [1] DEBUG - 個別値表示更新処理開始
+2011-07-19 17:52:49,610 [1] DEBUG - DefineUniqueValueRenderer STARTED
+2011-07-19 17:52:49,611 [1] DEBUG - UsingMemorySize Before GC :1560368 byte
+2011-07-19 17:52:49,694 [1] DEBUG - UsingMemorySize After  GC :1131324 byte
+2011-07-19 17:52:49,697 [1] DEBUG - feature class field count=19
+2011-07-19 17:52:49,697 [1] DEBUG - getfeature layer field count=35
+2011-07-19 17:52:49,697 [1] DEBUG - 個別値全件数 = 556
+2011-07-19 17:52:49,916 [1] DEBUG - UniqueValueRenderer Value Set Loop STARTED
+2011-07-19 17:52:50,016 [1] DEBUG - UniqueValueRenderer Value Set Loop ENDED
+2011-07-19 17:52:50,020 [1] DEBUG - UniqueValueRenderer Symbol Set Color Loop STARTED
+2011-07-19 17:52:50,039 [1] DEBUG - UniqueValueRenderer Symbol Set Color Loop ENDED
+2011-07-19 17:52:50,040 [1] DEBUG - DefineUniqueValueRenderer ENDED Normal
+2011-07-19 17:52:50,043 [1] DEBUG - DefineUniqueValueRenderer Exit
+2011-07-19 17:52:50,044 [1] DEBUG - UniqueValueRenderer Preview Set STARTED:136
+2011-07-19 17:52:50,047 [1] DEBUG - UniqueValueRenderer Preview Set :0件目
+2011-07-19 17:52:50,049 [1] DEBUG - UniqueValueRenderer Preview Set :1件目
+2011-07-19 17:52:50,050 [1] DEBUG - UniqueValueRenderer Preview Set :2件目
+2011-07-19 17:52:50,051 [1] DEBUG - UniqueValueRenderer Preview Set :3件目
+2011-07-19 17:52:50,052 [1] DEBUG - UniqueValueRenderer Preview Set :4件目
+2011-07-19 17:52:50,053 [1] DEBUG - UniqueValueRenderer Preview Set :5件目
+2011-07-19 17:52:50,054 [1] DEBUG - UniqueValueRenderer Preview Set :6件目
+2011-07-19 17:52:50,055 [1] DEBUG - UniqueValueRenderer Preview Set :7件目
+2011-07-19 17:52:50,056 [1] DEBUG - UniqueValueRenderer Preview Set :8件目
+2011-07-19 17:52:50,057 [1] DEBUG - UniqueValueRenderer Preview Set :9件目
+2011-07-19 17:52:50,058 [1] DEBUG - UniqueValueRenderer Preview Set :10件目
+2011-07-19 17:52:50,060 [1] DEBUG - UniqueValueRenderer Preview Set :11件目
+2011-07-19 17:52:50,061 [1] DEBUG - UniqueValueRenderer Preview Set :12件目
+2011-07-19 17:52:50,062 [1] DEBUG - UniqueValueRenderer Preview Set :13件目
+2011-07-19 17:52:50,063 [1] DEBUG - UniqueValueRenderer Preview Set :14件目
+2011-07-19 17:52:50,064 [1] DEBUG - UniqueValueRenderer Preview Set :15件目
+2011-07-19 17:52:50,065 [1] DEBUG - UniqueValueRenderer Preview Set :16件目
+2011-07-19 17:52:50,066 [1] DEBUG - UniqueValueRenderer Preview Set :17件目
+2011-07-19 17:52:50,067 [1] DEBUG - UniqueValueRenderer Preview Set :18件目
+2011-07-19 17:52:50,068 [1] DEBUG - UniqueValueRenderer Preview Set :19件目
+2011-07-19 17:52:50,069 [1] DEBUG - UniqueValueRenderer Preview Set :20件目
+2011-07-19 17:52:50,070 [1] DEBUG - UniqueValueRenderer Preview Set :21件目
+2011-07-19 17:52:50,071 [1] DEBUG - UniqueValueRenderer Preview Set :22件目
+2011-07-19 17:52:50,072 [1] DEBUG - UniqueValueRenderer Preview Set :23件目
+2011-07-19 17:52:50,073 [1] DEBUG - UniqueValueRenderer Preview Set :24件目
+2011-07-19 17:52:50,074 [1] DEBUG - UniqueValueRenderer Preview Set :25件目
+2011-07-19 17:52:50,075 [1] DEBUG - UniqueValueRenderer Preview Set :26件目
+2011-07-19 17:52:50,076 [1] DEBUG - UniqueValueRenderer Preview Set :27件目
+2011-07-19 17:52:50,077 [1] DEBUG - UniqueValueRenderer Preview Set :28件目
+2011-07-19 17:52:50,079 [1] DEBUG - UniqueValueRenderer Preview Set :29件目
+2011-07-19 17:52:50,081 [1] DEBUG - UniqueValueRenderer Preview Set :30件目
+2011-07-19 17:52:50,082 [1] DEBUG - UniqueValueRenderer Preview Set :31件目
+2011-07-19 17:52:50,083 [1] DEBUG - UniqueValueRenderer Preview Set :32件目
+2011-07-19 17:52:50,083 [1] DEBUG - UniqueValueRenderer Preview Set :33件目
+2011-07-19 17:52:50,085 [1] DEBUG - UniqueValueRenderer Preview Set :34件目
+2011-07-19 17:52:50,086 [1] DEBUG - UniqueValueRenderer Preview Set :35件目
+2011-07-19 17:52:50,087 [1] DEBUG - UniqueValueRenderer Preview Set :36件目
+2011-07-19 17:52:50,088 [1] DEBUG - UniqueValueRenderer Preview Set :37件目
+2011-07-19 17:52:50,089 [1] DEBUG - UniqueValueRenderer Preview Set :38件目
+2011-07-19 17:52:50,090 [1] DEBUG - UniqueValueRenderer Preview Set :39件目
+2011-07-19 17:52:50,091 [1] DEBUG - UniqueValueRenderer Preview Set :40件目
+2011-07-19 17:52:50,092 [1] DEBUG - UniqueValueRenderer Preview Set :41件目
+2011-07-19 17:52:50,093 [1] DEBUG - UniqueValueRenderer Preview Set :42件目
+2011-07-19 17:52:50,094 [1] DEBUG - UniqueValueRenderer Preview Set :43件目
+2011-07-19 17:52:50,095 [1] DEBUG - UniqueValueRenderer Preview Set :44件目
+2011-07-19 17:52:50,096 [1] DEBUG - UniqueValueRenderer Preview Set :45件目
+2011-07-19 17:52:50,097 [1] DEBUG - UniqueValueRenderer Preview Set :46件目
+2011-07-19 17:52:50,098 [1] DEBUG - UniqueValueRenderer Preview Set :47件目
+2011-07-19 17:52:50,099 [1] DEBUG - UniqueValueRenderer Preview Set :48件目
+2011-07-19 17:52:50,100 [1] DEBUG - UniqueValueRenderer Preview Set :49件目
+2011-07-19 17:52:50,101 [1] DEBUG - UniqueValueRenderer Preview Set :50件目
+2011-07-19 17:52:50,102 [1] DEBUG - UniqueValueRenderer Preview Set :51件目
+2011-07-19 17:52:50,103 [1] DEBUG - UniqueValueRenderer Preview Set :52件目
+2011-07-19 17:52:50,104 [1] DEBUG - UniqueValueRenderer Preview Set :53件目
+2011-07-19 17:52:50,105 [1] DEBUG - UniqueValueRenderer Preview Set :54件目
+2011-07-19 17:52:50,106 [1] DEBUG - UniqueValueRenderer Preview Set :55件目
+2011-07-19 17:52:50,107 [1] DEBUG - UniqueValueRenderer Preview Set :56件目
+2011-07-19 17:52:50,108 [1] DEBUG - UniqueValueRenderer Preview Set :57件目
+2011-07-19 17:52:50,109 [1] DEBUG - UniqueValueRenderer Preview Set :58件目
+2011-07-19 17:52:50,111 [1] DEBUG - UniqueValueRenderer Preview Set :59件目
+2011-07-19 17:52:50,112 [1] DEBUG - UniqueValueRenderer Preview Set :60件目
+2011-07-19 17:52:50,113 [1] DEBUG - UniqueValueRenderer Preview Set :61件目
+2011-07-19 17:52:50,114 [1] DEBUG - UniqueValueRenderer Preview Set :62件目
+2011-07-19 17:52:50,115 [1] DEBUG - UniqueValueRenderer Preview Set :63件目
+2011-07-19 17:52:50,116 [1] DEBUG - UniqueValueRenderer Preview Set :64件目
+2011-07-19 17:52:50,117 [1] DEBUG - UniqueValueRenderer Preview Set :65件目
+2011-07-19 17:52:50,118 [1] DEBUG - UniqueValueRenderer Preview Set :66件目
+2011-07-19 17:52:50,119 [1] DEBUG - UniqueValueRenderer Preview Set :67件目
+2011-07-19 17:52:50,120 [1] DEBUG - UniqueValueRenderer Preview Set :68件目
+2011-07-19 17:52:50,121 [1] DEBUG - UniqueValueRenderer Preview Set :69件目
+2011-07-19 17:52:50,122 [1] DEBUG - UniqueValueRenderer Preview Set :70件目
+2011-07-19 17:52:50,123 [1] DEBUG - UniqueValueRenderer Preview Set :71件目
+2011-07-19 17:52:50,125 [1] DEBUG - UniqueValueRenderer Preview Set :72件目
+2011-07-19 17:52:50,125 [1] DEBUG - UniqueValueRenderer Preview Set :73件目
+2011-07-19 17:52:50,126 [1] DEBUG - UniqueValueRenderer Preview Set :74件目
+2011-07-19 17:52:50,127 [1] DEBUG - UniqueValueRenderer Preview Set :75件目
+2011-07-19 17:52:50,128 [1] DEBUG - UniqueValueRenderer Preview Set :76件目
+2011-07-19 17:52:50,129 [1] DEBUG - UniqueValueRenderer Preview Set :77件目
+2011-07-19 17:52:50,130 [1] DEBUG - UniqueValueRenderer Preview Set :78件目
+2011-07-19 17:52:50,131 [1] DEBUG - UniqueValueRenderer Preview Set :79件目
+2011-07-19 17:52:50,132 [1] DEBUG - UniqueValueRenderer Preview Set :80件目
+2011-07-19 17:52:50,133 [1] DEBUG - UniqueValueRenderer Preview Set :81件目
+2011-07-19 17:52:50,134 [1] DEBUG - UniqueValueRenderer Preview Set :82件目
+2011-07-19 17:52:50,135 [1] DEBUG - UniqueValueRenderer Preview Set :83件目
+2011-07-19 17:52:50,136 [1] DEBUG - UniqueValueRenderer Preview Set :84件目
+2011-07-19 17:52:50,137 [1] DEBUG - UniqueValueRenderer Preview Set :85件目
+2011-07-19 17:52:50,138 [1] DEBUG - UniqueValueRenderer Preview Set :86件目
+2011-07-19 17:52:50,139 [1] DEBUG - UniqueValueRenderer Preview Set :87件目
+2011-07-19 17:52:50,140 [1] DEBUG - UniqueValueRenderer Preview Set :88件目
+2011-07-19 17:52:50,141 [1] DEBUG - UniqueValueRenderer Preview Set :89件目
+2011-07-19 17:52:50,142 [1] DEBUG - UniqueValueRenderer Preview Set :90件目
+2011-07-19 17:52:50,143 [1] DEBUG - UniqueValueRenderer Preview Set :91件目
+2011-07-19 17:52:50,144 [1] DEBUG - UniqueValueRenderer Preview Set :92件目
+2011-07-19 17:52:50,168 [1] DEBUG - UniqueValueRenderer Preview Set :93件目
+2011-07-19 17:52:50,169 [1] DEBUG - UniqueValueRenderer Preview Set :94件目
+2011-07-19 17:52:50,169 [1] DEBUG - UniqueValueRenderer Preview Set :95件目
+2011-07-19 17:52:50,170 [1] DEBUG - UniqueValueRenderer Preview Set :96件目
+2011-07-19 17:52:50,170 [1] DEBUG - UniqueValueRenderer Preview Set :97件目
+2011-07-19 17:52:50,171 [1] DEBUG - UniqueValueRenderer Preview Set :98件目
+2011-07-19 17:52:50,171 [1] DEBUG - UniqueValueRenderer Preview Set :99件目
+2011-07-19 17:52:50,172 [1] DEBUG - UniqueValueRenderer Preview Set :100件目
+2011-07-19 17:52:50,172 [1] DEBUG - UniqueValueRenderer Preview Set :101件目
+2011-07-19 17:52:50,173 [1] DEBUG - UniqueValueRenderer Preview Set :102件目
+2011-07-19 17:52:50,173 [1] DEBUG - UniqueValueRenderer Preview Set :103件目
+2011-07-19 17:52:50,174 [1] DEBUG - UniqueValueRenderer Preview Set :104件目
+2011-07-19 17:52:50,174 [1] DEBUG - UniqueValueRenderer Preview Set :105件目
+2011-07-19 17:52:50,175 [1] DEBUG - UniqueValueRenderer Preview Set :106件目
+2011-07-19 17:52:50,175 [1] DEBUG - UniqueValueRenderer Preview Set :107件目
+2011-07-19 17:52:50,176 [1] DEBUG - UniqueValueRenderer Preview Set :108件目
+2011-07-19 17:52:50,176 [1] DEBUG - UniqueValueRenderer Preview Set :109件目
+2011-07-19 17:52:50,177 [1] DEBUG - UniqueValueRenderer Preview Set :110件目
+2011-07-19 17:52:50,177 [1] DEBUG - UniqueValueRenderer Preview Set :111件目
+2011-07-19 17:52:50,178 [1] DEBUG - UniqueValueRenderer Preview Set :112件目
+2011-07-19 17:52:50,179 [1] DEBUG - UniqueValueRenderer Preview Set :113件目
+2011-07-19 17:52:50,179 [1] DEBUG - UniqueValueRenderer Preview Set :114件目
+2011-07-19 17:52:50,179 [1] DEBUG - UniqueValueRenderer Preview Set :115件目
+2011-07-19 17:52:50,180 [1] DEBUG - UniqueValueRenderer Preview Set :116件目
+2011-07-19 17:52:50,180 [1] DEBUG - UniqueValueRenderer Preview Set :117件目
+2011-07-19 17:52:50,181 [1] DEBUG - UniqueValueRenderer Preview Set :118件目
+2011-07-19 17:52:50,182 [1] DEBUG - UniqueValueRenderer Preview Set :119件目
+2011-07-19 17:52:50,182 [1] DEBUG - UniqueValueRenderer Preview Set :120件目
+2011-07-19 17:52:50,182 [1] DEBUG - UniqueValueRenderer Preview Set :121件目
+2011-07-19 17:52:50,183 [1] DEBUG - UniqueValueRenderer Preview Set :122件目
+2011-07-19 17:52:50,183 [1] DEBUG - UniqueValueRenderer Preview Set :123件目
+2011-07-19 17:52:50,184 [1] DEBUG - UniqueValueRenderer Preview Set :124件目
+2011-07-19 17:52:50,185 [1] DEBUG - UniqueValueRenderer Preview Set :125件目
+2011-07-19 17:52:50,185 [1] DEBUG - UniqueValueRenderer Preview Set :126件目
+2011-07-19 17:52:50,187 [1] DEBUG - UniqueValueRenderer Preview Set :127件目
+2011-07-19 17:52:50,187 [1] DEBUG - UniqueValueRenderer Preview Set :128件目
+2011-07-19 17:52:50,188 [1] DEBUG - UniqueValueRenderer Preview Set :129件目
+2011-07-19 17:52:50,188 [1] DEBUG - UniqueValueRenderer Preview Set :130件目
+2011-07-19 17:52:50,190 [1] DEBUG - UniqueValueRenderer Preview Set :131件目
+2011-07-19 17:52:50,190 [1] DEBUG - UniqueValueRenderer Preview Set :132件目
+2011-07-19 17:52:50,191 [1] DEBUG - UniqueValueRenderer Preview Set :133件目
+2011-07-19 17:52:50,192 [1] DEBUG - UniqueValueRenderer Preview Set :134件目
+2011-07-19 17:52:50,192 [1] DEBUG - UniqueValueRenderer Preview Set :135件目
+2011-07-19 17:52:50,192 [1] DEBUG - UniqueValueRenderer Preview Set ENDED:136
+2011-07-19 17:52:50,365 [1] DEBUG - 個別値表示更新処理終了
+2011-07-19 17:52:53,501 [1] DEBUG - シンボル設定画面終了
+2011-07-19 17:53:00,401 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:53:04,501 [1] DEBUG - 属性テーブル表示開始
+2011-07-19 17:53:11,987 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:53:31,905 [1] DEBUG - 属性テーブル表示終了
+2011-07-19 17:53:33,625 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:53:44,404 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 17:53:44,407 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 17:53:45,020 [1] DEBUG - ItemDraw
+2011-07-19 17:53:45,362 [1] DEBUG - ItemDraw
+2011-07-19 17:53:45,438 [1] DEBUG - ItemDraw
+2011-07-19 17:53:45,439 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2011-07-19 17:53:45,448 [1] DEBUG - ItemDraw
+2011-07-19 17:53:45,452 [1] DEBUG - ItemDraw
+2011-07-19 17:53:45,454 [1] DEBUG - ItemDraw
+2011-07-19 17:53:45,455 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 17:53:45,540 [1] DEBUG - ItemDraw
+2011-07-19 17:53:45,611 [1] DEBUG - ItemDraw
+2011-07-19 17:53:45,612 [1] DEBUG - ItemDraw
+2011-07-19 17:53:45,613 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-19 17:53:45,627 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:53:49,180 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:53:49,210 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:53:54,372 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:54:01,673 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:55:28,016 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:55:34,539 [1] DEBUG - 属性テーブル表示開始
+2011-07-19 17:56:37,871 [1] DEBUG - 属性テーブル表示終了
+2011-07-19 17:56:37,952 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 17:57:01,385 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:07:36,732 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:07:37,197 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:09:05,004 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:09:07,134 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 18:09:07,137 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 18:09:07,617 [1] DEBUG - ItemDraw
+2011-07-19 18:09:13,368 [1] DEBUG - PageLayout CurrentTool Inde x= 0
+2011-07-19 18:15:42,790 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 18:15:42,803 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 18:15:43,444 [1] DEBUG - ItemDraw
+2011-07-19 18:15:43,776 [1] DEBUG - ItemDraw
+2011-07-19 18:15:45,358 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:15:52,306 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:16:02,572 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:16:40,899 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:16:56,811 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:16:59,780 [1] DEBUG - 属性テーブル表示開始
+2011-07-19 18:17:07,428 [1] DEBUG - 属性テーブル表示終了
+2011-07-19 18:17:07,754 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 18:17:07,756 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 18:17:08,339 [1] DEBUG - ItemDraw
+2011-07-19 18:17:08,707 [1] DEBUG - ItemDraw
+2011-07-19 18:17:08,799 [1] DEBUG - ItemDraw
+2011-07-19 18:17:08,801 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2011-07-19 18:17:08,807 [1] DEBUG - ItemDraw
+2011-07-19 18:17:08,807 [1] DEBUG - ItemDraw
+2011-07-19 18:17:08,809 [1] DEBUG - ItemDraw
+2011-07-19 18:17:08,809 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 18:17:08,868 [1] DEBUG - ItemDraw
+2011-07-19 18:17:08,951 [1] DEBUG - ItemDraw
+2011-07-19 18:17:08,952 [1] DEBUG - ItemDraw
+2011-07-19 18:17:08,952 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-19 18:17:08,959 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:17:17,057 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:33:06,846 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:33:08,583 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 18:33:08,587 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 18:33:09,223 [1] DEBUG - ItemDraw
+2011-07-19 18:33:09,563 [1] DEBUG - ItemDraw
+2011-07-19 18:33:09,655 [1] DEBUG - ItemDraw
+2011-07-19 18:33:09,656 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2011-07-19 18:33:09,667 [1] DEBUG - ItemDraw
+2011-07-19 18:33:09,670 [1] DEBUG - ItemDraw
+2011-07-19 18:33:09,674 [1] DEBUG - ItemDraw
+2011-07-19 18:33:09,676 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 18:33:09,746 [1] DEBUG - ItemDraw
+2011-07-19 18:33:09,799 [1] DEBUG - ItemDraw
+2011-07-19 18:33:09,801 [1] DEBUG - ItemDraw
+2011-07-19 18:33:09,802 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-19 18:33:09,817 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:33:17,285 [1] INFO  - GISLight10終了
+2011-07-19 18:54:05,624 [1] INFO  - GISLight10開始
+2011-07-19 18:54:07,292 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 18:54:07,296 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 18:54:07,299 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 18:54:07,303 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-19 18:54:07,311 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:54:30,440 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 18:54:30,442 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 18:54:32,693 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2011-07-19 18:54:32,704 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 18:54:32,765 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-19 18:54:32,857 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:54:34,321 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 18:54:34,331 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 18:54:34,359 [1] DEBUG - ItemDraw
+2011-07-19 18:54:37,274 [1] DEBUG - PageLayout CurrentTool Inde x= 0
+2011-07-19 18:54:44,021 [1] DEBUG - PageLayout CurrentTool Inde x= 0
+2011-07-19 18:54:57,994 [1] DEBUG - PageLayout CurrentTool Inde x= 0
+2011-07-19 18:55:13,328 [1] DEBUG - PageLayout CurrentTool Inde x= 0
+2011-07-19 18:55:31,801 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 18:55:31,804 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 18:55:32,292 [1] DEBUG - ItemDraw
+2011-07-19 18:55:32,420 [1] DEBUG - ItemDraw
+2011-07-19 18:55:32,450 [1] DEBUG - ItemDraw
+2011-07-19 18:55:32,451 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2011-07-19 18:55:32,458 [1] DEBUG - ItemDraw
+2011-07-19 18:55:32,458 [1] DEBUG - ItemDraw
+2011-07-19 18:55:32,465 [1] DEBUG - ItemDraw
+2011-07-19 18:55:32,468 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 18:55:32,506 [1] DEBUG - ItemDraw
+2011-07-19 18:55:32,532 [1] DEBUG - ItemDraw
+2011-07-19 18:55:32,533 [1] DEBUG - ItemDraw
+2011-07-19 18:55:32,533 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-19 18:55:32,547 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:55:32,856 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:55:32,914 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:56:29,792 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:56:33,595 [1] DEBUG - シンボル設定表示開始
+2011-07-19 18:56:33,819 [1] DEBUG - シンボル設定初期表示処理開始
+2011-07-19 18:56:34,095 [1] ERROR - The specified filename is invalid
+2011-07-19 18:56:34,106 [1] ERROR -    場所 ESRI.ArcGIS.Controls.SymbologyControlClass.ISymbologyControl_LoadStyleFile(String fileName)
+   場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.GetColorRampFromStyleGallery(String symbolName) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 4749
+2011-07-19 18:56:34,173 [1] DEBUG - シンボル設定初期表示処理終了
+2011-07-19 18:56:35,916 [1] DEBUG - buttonOpenImageFile_Click UsingMemorySize Before GC :2322912 byte
+2011-07-19 18:56:35,967 [1] DEBUG - buttonOpenImageFile_Click UsingMemorySize After  GC :1240148 byte
+2011-07-19 18:56:38,597 [1] DEBUG - DefineUniqueValueRendererUpdate STARTED
+2011-07-19 18:56:38,599 [1] DEBUG - UsingMemorySize Before GC :1428564 byte
+2011-07-19 18:56:38,631 [1] DEBUG - UsingMemorySize After  GC :1175184 byte
+2011-07-19 18:56:38,646 [1] DEBUG - UniqueValueRenderer Value Set Loop STARTED
+2011-07-19 18:56:38,697 [1] DEBUG - UniqueValueRendererUpdate Value Set Loop ENDED
+2011-07-19 18:56:38,699 [1] DEBUG - UniqueValueRendererUpdate Symbol Set Color Loop STARTED
+2011-07-19 18:56:38,714 [1] DEBUG - UniqueValueRendererUpdate Symbol Set Color Loop ENDED
+2011-07-19 18:56:38,716 [1] DEBUG - DefineUniqueValueRendererUpdate ENDED Normal
+2011-07-19 18:56:38,716 [1] DEBUG - DefineUniqueValueRendererUpdate Exit
+2011-07-19 18:56:38,721 [1] DEBUG - UniqueValueRenderer Preview Set STARTED:43
+2011-07-19 18:56:38,723 [1] DEBUG - UniqueValueRenderer Preview Set :0件目
+2011-07-19 18:56:38,724 [1] DEBUG - UniqueValueRenderer Preview Set :1件目
+2011-07-19 18:56:38,724 [1] DEBUG - UniqueValueRenderer Preview Set :2件目
+2011-07-19 18:56:38,724 [1] DEBUG - UniqueValueRenderer Preview Set :3件目
+2011-07-19 18:56:38,726 [1] DEBUG - UniqueValueRenderer Preview Set :4件目
+2011-07-19 18:56:38,727 [1] DEBUG - UniqueValueRenderer Preview Set :5件目
+2011-07-19 18:56:38,728 [1] DEBUG - UniqueValueRenderer Preview Set :6件目
+2011-07-19 18:56:38,728 [1] DEBUG - UniqueValueRenderer Preview Set :7件目
+2011-07-19 18:56:38,732 [1] DEBUG - UniqueValueRenderer Preview Set :8件目
+2011-07-19 18:56:38,732 [1] DEBUG - UniqueValueRenderer Preview Set :9件目
+2011-07-19 18:56:38,733 [1] DEBUG - UniqueValueRenderer Preview Set :10件目
+2011-07-19 18:56:38,733 [1] DEBUG - UniqueValueRenderer Preview Set :11件目
+2011-07-19 18:56:38,733 [1] DEBUG - UniqueValueRenderer Preview Set :12件目
+2011-07-19 18:56:38,734 [1] DEBUG - UniqueValueRenderer Preview Set :13件目
+2011-07-19 18:56:38,735 [1] DEBUG - UniqueValueRenderer Preview Set :14件目
+2011-07-19 18:56:38,736 [1] DEBUG - UniqueValueRenderer Preview Set :15件目
+2011-07-19 18:56:38,736 [1] DEBUG - UniqueValueRenderer Preview Set :16件目
+2011-07-19 18:56:38,736 [1] DEBUG - UniqueValueRenderer Preview Set :17件目
+2011-07-19 18:56:38,737 [1] DEBUG - UniqueValueRenderer Preview Set :18件目
+2011-07-19 18:56:38,737 [1] DEBUG - UniqueValueRenderer Preview Set :19件目
+2011-07-19 18:56:38,737 [1] DEBUG - UniqueValueRenderer Preview Set :20件目
+2011-07-19 18:56:38,741 [1] DEBUG - UniqueValueRenderer Preview Set :21件目
+2011-07-19 18:56:38,741 [1] DEBUG - UniqueValueRenderer Preview Set :22件目
+2011-07-19 18:56:38,742 [1] DEBUG - UniqueValueRenderer Preview Set :23件目
+2011-07-19 18:56:38,742 [1] DEBUG - UniqueValueRenderer Preview Set :24件目
+2011-07-19 18:56:38,742 [1] DEBUG - UniqueValueRenderer Preview Set :25件目
+2011-07-19 18:56:38,743 [1] DEBUG - UniqueValueRenderer Preview Set :26件目
+2011-07-19 18:56:38,743 [1] DEBUG - UniqueValueRenderer Preview Set :27件目
+2011-07-19 18:56:38,743 [1] DEBUG - UniqueValueRenderer Preview Set :28件目
+2011-07-19 18:56:38,744 [1] DEBUG - UniqueValueRenderer Preview Set :29件目
+2011-07-19 18:56:38,744 [1] DEBUG - UniqueValueRenderer Preview Set :30件目
+2011-07-19 18:56:38,746 [1] DEBUG - UniqueValueRenderer Preview Set :31件目
+2011-07-19 18:56:38,746 [1] DEBUG - UniqueValueRenderer Preview Set :32件目
+2011-07-19 18:56:38,746 [1] DEBUG - UniqueValueRenderer Preview Set :33件目
+2011-07-19 18:56:38,747 [1] DEBUG - UniqueValueRenderer Preview Set :34件目
+2011-07-19 18:56:38,751 [1] DEBUG - UniqueValueRenderer Preview Set :35件目
+2011-07-19 18:56:38,751 [1] DEBUG - UniqueValueRenderer Preview Set :36件目
+2011-07-19 18:56:38,751 [1] DEBUG - UniqueValueRenderer Preview Set :37件目
+2011-07-19 18:56:38,752 [1] DEBUG - UniqueValueRenderer Preview Set :38件目
+2011-07-19 18:56:38,753 [1] DEBUG - UniqueValueRenderer Preview Set :39件目
+2011-07-19 18:56:38,753 [1] DEBUG - UniqueValueRenderer Preview Set :40件目
+2011-07-19 18:56:38,753 [1] DEBUG - UniqueValueRenderer Preview Set :41件目
+2011-07-19 18:56:38,756 [1] DEBUG - UniqueValueRenderer Preview Set :42件目
+2011-07-19 18:56:38,757 [1] DEBUG - UniqueValueRenderer Preview Set ENDED:43
+2011-07-19 18:56:38,836 [1] DEBUG - OpenColorRamp: IStyleGalleryItem Release After This ... 
+2011-07-19 18:56:38,898 [1] INFO  - StyleForm UsingMemorySize Before GC :1535632 byte
+2011-07-19 18:56:38,932 [1] INFO  - StyleForm UsingMemorySize After GC :1170892 byte
+2011-07-19 18:56:38,933 [1] DEBUG - OpenColorRamp: IStyleGalleryItem Release Ended
+2011-07-19 18:56:38,933 [1] DEBUG - End OF buttonOpenImageFile_Click UsingMemorySize Before GC :1187276 byte
+2011-07-19 18:56:38,961 [1] DEBUG - End Of buttonOpenImageFile_Click UsingMemorySize After  GC :1169392 byte
+2011-07-19 18:56:39,013 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:56:43,963 [1] DEBUG - buttonOpenSyleGallery_Click UsingMemorySize Before GC :1333232 byte
+2011-07-19 18:56:43,995 [1] DEBUG - buttonOpenSyleGallery_Click UsingMemorySize After  GC :1171300 byte
+2011-07-19 18:57:07,036 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:57:10,343 [1] DEBUG - DefineUniqueValueRendererUpdate STARTED
+2011-07-19 18:57:10,345 [1] DEBUG - UsingMemorySize Before GC :1748100 byte
+2011-07-19 18:57:10,387 [1] DEBUG - UsingMemorySize After  GC :1260248 byte
+2011-07-19 18:57:10,389 [1] DEBUG - UniqueValueRenderer Value Set Loop STARTED
+2011-07-19 18:57:10,394 [1] DEBUG - UniqueValueRendererUpdate Value Set Loop ENDED
+2011-07-19 18:57:10,395 [1] DEBUG - UniqueValueRendererUpdate Symbol Set Color Loop STARTED
+2011-07-19 18:57:10,399 [1] DEBUG - UniqueValueRendererUpdate Symbol Set Color Loop ENDED
+2011-07-19 18:57:10,399 [1] DEBUG - DefineUniqueValueRendererUpdate ENDED Normal
+2011-07-19 18:57:10,399 [1] DEBUG - DefineUniqueValueRendererUpdate Exit
+2011-07-19 18:57:10,399 [1] DEBUG - UniqueValueRenderer Preview Set STARTED:43
+2011-07-19 18:57:10,400 [1] DEBUG - UniqueValueRenderer Preview Set :0件目
+2011-07-19 18:57:10,401 [1] DEBUG - UniqueValueRenderer Preview Set :1件目
+2011-07-19 18:57:10,401 [1] DEBUG - UniqueValueRenderer Preview Set :2件目
+2011-07-19 18:57:10,402 [1] DEBUG - UniqueValueRenderer Preview Set :3件目
+2011-07-19 18:57:10,402 [1] DEBUG - UniqueValueRenderer Preview Set :4件目
+2011-07-19 18:57:10,402 [1] DEBUG - UniqueValueRenderer Preview Set :5件目
+2011-07-19 18:57:10,403 [1] DEBUG - UniqueValueRenderer Preview Set :6件目
+2011-07-19 18:57:10,403 [1] DEBUG - UniqueValueRenderer Preview Set :7件目
+2011-07-19 18:57:10,403 [1] DEBUG - UniqueValueRenderer Preview Set :8件目
+2011-07-19 18:57:10,404 [1] DEBUG - UniqueValueRenderer Preview Set :9件目
+2011-07-19 18:57:10,404 [1] DEBUG - UniqueValueRenderer Preview Set :10件目
+2011-07-19 18:57:10,406 [1] DEBUG - UniqueValueRenderer Preview Set :11件目
+2011-07-19 18:57:10,408 [1] DEBUG - UniqueValueRenderer Preview Set :12件目
+2011-07-19 18:57:10,409 [1] DEBUG - UniqueValueRenderer Preview Set :13件目
+2011-07-19 18:57:10,411 [1] DEBUG - UniqueValueRenderer Preview Set :14件目
+2011-07-19 18:57:10,411 [1] DEBUG - UniqueValueRenderer Preview Set :15件目
+2011-07-19 18:57:10,412 [1] DEBUG - UniqueValueRenderer Preview Set :16件目
+2011-07-19 18:57:10,412 [1] DEBUG - UniqueValueRenderer Preview Set :17件目
+2011-07-19 18:57:10,413 [1] DEBUG - UniqueValueRenderer Preview Set :18件目
+2011-07-19 18:57:10,417 [1] DEBUG - UniqueValueRenderer Preview Set :19件目
+2011-07-19 18:57:10,418 [1] DEBUG - UniqueValueRenderer Preview Set :20件目
+2011-07-19 18:57:10,419 [1] DEBUG - UniqueValueRenderer Preview Set :21件目
+2011-07-19 18:57:10,419 [1] DEBUG - UniqueValueRenderer Preview Set :22件目
+2011-07-19 18:57:10,419 [1] DEBUG - UniqueValueRenderer Preview Set :23件目
+2011-07-19 18:57:10,420 [1] DEBUG - UniqueValueRenderer Preview Set :24件目
+2011-07-19 18:57:10,420 [1] DEBUG - UniqueValueRenderer Preview Set :25件目
+2011-07-19 18:57:10,421 [1] DEBUG - UniqueValueRenderer Preview Set :26件目
+2011-07-19 18:57:10,421 [1] DEBUG - UniqueValueRenderer Preview Set :27件目
+2011-07-19 18:57:10,421 [1] DEBUG - UniqueValueRenderer Preview Set :28件目
+2011-07-19 18:57:10,423 [1] DEBUG - UniqueValueRenderer Preview Set :29件目
+2011-07-19 18:57:10,426 [1] DEBUG - UniqueValueRenderer Preview Set :30件目
+2011-07-19 18:57:10,440 [1] DEBUG - UniqueValueRenderer Preview Set :31件目
+2011-07-19 18:57:10,442 [1] DEBUG - UniqueValueRenderer Preview Set :32件目
+2011-07-19 18:57:10,443 [1] DEBUG - UniqueValueRenderer Preview Set :33件目
+2011-07-19 18:57:10,444 [1] DEBUG - UniqueValueRenderer Preview Set :34件目
+2011-07-19 18:57:10,444 [1] DEBUG - UniqueValueRenderer Preview Set :35件目
+2011-07-19 18:57:10,445 [1] DEBUG - UniqueValueRenderer Preview Set :36件目
+2011-07-19 18:57:10,445 [1] DEBUG - UniqueValueRenderer Preview Set :37件目
+2011-07-19 18:57:10,445 [1] DEBUG - UniqueValueRenderer Preview Set :38件目
+2011-07-19 18:57:10,446 [1] DEBUG - UniqueValueRenderer Preview Set :39件目
+2011-07-19 18:57:10,447 [1] DEBUG - UniqueValueRenderer Preview Set :40件目
+2011-07-19 18:57:10,448 [1] DEBUG - UniqueValueRenderer Preview Set :41件目
+2011-07-19 18:57:10,448 [1] DEBUG - UniqueValueRenderer Preview Set :42件目
+2011-07-19 18:57:10,448 [1] DEBUG - UniqueValueRenderer Preview Set ENDED:43
+2011-07-19 18:57:10,645 [1] INFO  - StyleForm UsingMemorySize Before GC :1612504 byte
+2011-07-19 18:57:10,680 [1] INFO  - StyleForm UsingMemorySize After GC :1201660 byte
+2011-07-19 18:57:10,681 [1] DEBUG - End Of buttonOpenSyleGallery_Click UsingMemorySize Before GC :1209852 byte
+2011-07-19 18:57:10,716 [1] DEBUG - End Of buttonOpenSyleGallery_Click UsingMemorySize After  GC :1200160 byte
+2011-07-19 18:57:10,768 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:57:15,765 [1] DEBUG - 個別値表示更新処理開始
+2011-07-19 18:57:15,768 [1] DEBUG - DefineUniqueValueRendererUpdate STARTED
+2011-07-19 18:57:15,768 [1] DEBUG - UsingMemorySize Before GC :1437728 byte
+2011-07-19 18:57:15,804 [1] DEBUG - UsingMemorySize After  GC :1186604 byte
+2011-07-19 18:57:15,807 [1] DEBUG - UniqueValueRenderer Value Set Loop STARTED
+2011-07-19 18:57:15,816 [1] DEBUG - UniqueValueRendererUpdate Value Set Loop ENDED
+2011-07-19 18:57:15,817 [1] DEBUG - UniqueValueRendererUpdate Symbol Set Color Loop STARTED
+2011-07-19 18:57:15,819 [1] DEBUG - UniqueValueRendererUpdate Symbol Set Color Loop ENDED
+2011-07-19 18:57:15,823 [1] DEBUG - DefineUniqueValueRendererUpdate ENDED Normal
+2011-07-19 18:57:15,823 [1] DEBUG - DefineUniqueValueRendererUpdate Exit
+2011-07-19 18:57:15,823 [1] DEBUG - UniqueValueRenderer Preview Set STARTED:43
+2011-07-19 18:57:15,825 [1] DEBUG - UniqueValueRenderer Preview Set :0件目
+2011-07-19 18:57:15,826 [1] DEBUG - UniqueValueRenderer Preview Set :1件目
+2011-07-19 18:57:15,829 [1] DEBUG - UniqueValueRenderer Preview Set :2件目
+2011-07-19 18:57:15,830 [1] DEBUG - UniqueValueRenderer Preview Set :3件目
+2011-07-19 18:57:15,830 [1] DEBUG - UniqueValueRenderer Preview Set :4件目
+2011-07-19 18:57:15,832 [1] DEBUG - UniqueValueRenderer Preview Set :5件目
+2011-07-19 18:57:15,833 [1] DEBUG - UniqueValueRenderer Preview Set :6件目
+2011-07-19 18:57:15,833 [1] DEBUG - UniqueValueRenderer Preview Set :7件目
+2011-07-19 18:57:15,833 [1] DEBUG - UniqueValueRenderer Preview Set :8件目
+2011-07-19 18:57:15,834 [1] DEBUG - UniqueValueRenderer Preview Set :9件目
+2011-07-19 18:57:15,835 [1] DEBUG - UniqueValueRenderer Preview Set :10件目
+2011-07-19 18:57:15,836 [1] DEBUG - UniqueValueRenderer Preview Set :11件目
+2011-07-19 18:57:15,836 [1] DEBUG - UniqueValueRenderer Preview Set :12件目
+2011-07-19 18:57:15,836 [1] DEBUG - UniqueValueRenderer Preview Set :13件目
+2011-07-19 18:57:15,837 [1] DEBUG - UniqueValueRenderer Preview Set :14件目
+2011-07-19 18:57:15,837 [1] DEBUG - UniqueValueRenderer Preview Set :15件目
+2011-07-19 18:57:15,839 [1] DEBUG - UniqueValueRenderer Preview Set :16件目
+2011-07-19 18:57:15,840 [1] DEBUG - UniqueValueRenderer Preview Set :17件目
+2011-07-19 18:57:15,841 [1] DEBUG - UniqueValueRenderer Preview Set :18件目
+2011-07-19 18:57:15,842 [1] DEBUG - UniqueValueRenderer Preview Set :19件目
+2011-07-19 18:57:15,843 [1] DEBUG - UniqueValueRenderer Preview Set :20件目
+2011-07-19 18:57:15,844 [1] DEBUG - UniqueValueRenderer Preview Set :21件目
+2011-07-19 18:57:15,845 [1] DEBUG - UniqueValueRenderer Preview Set :22件目
+2011-07-19 18:57:15,845 [1] DEBUG - UniqueValueRenderer Preview Set :23件目
+2011-07-19 18:57:15,846 [1] DEBUG - UniqueValueRenderer Preview Set :24件目
+2011-07-19 18:57:15,847 [1] DEBUG - UniqueValueRenderer Preview Set :25件目
+2011-07-19 18:57:15,847 [1] DEBUG - UniqueValueRenderer Preview Set :26件目
+2011-07-19 18:57:15,848 [1] DEBUG - UniqueValueRenderer Preview Set :27件目
+2011-07-19 18:57:15,849 [1] DEBUG - UniqueValueRenderer Preview Set :28件目
+2011-07-19 18:57:15,851 [1] DEBUG - UniqueValueRenderer Preview Set :29件目
+2011-07-19 18:57:15,851 [1] DEBUG - UniqueValueRenderer Preview Set :30件目
+2011-07-19 18:57:15,854 [1] DEBUG - UniqueValueRenderer Preview Set :31件目
+2011-07-19 18:57:15,856 [1] DEBUG - UniqueValueRenderer Preview Set :32件目
+2011-07-19 18:57:15,857 [1] DEBUG - UniqueValueRenderer Preview Set :33件目
+2011-07-19 18:57:15,858 [1] DEBUG - UniqueValueRenderer Preview Set :34件目
+2011-07-19 18:57:15,859 [1] DEBUG - UniqueValueRenderer Preview Set :35件目
+2011-07-19 18:57:15,859 [1] DEBUG - UniqueValueRenderer Preview Set :36件目
+2011-07-19 18:57:15,860 [1] DEBUG - UniqueValueRenderer Preview Set :37件目
+2011-07-19 18:57:15,861 [1] DEBUG - UniqueValueRenderer Preview Set :38件目
+2011-07-19 18:57:15,862 [1] DEBUG - UniqueValueRenderer Preview Set :39件目
+2011-07-19 18:57:15,863 [1] DEBUG - UniqueValueRenderer Preview Set :40件目
+2011-07-19 18:57:15,867 [1] DEBUG - UniqueValueRenderer Preview Set :41件目
+2011-07-19 18:57:15,867 [1] DEBUG - UniqueValueRenderer Preview Set :42件目
+2011-07-19 18:57:15,868 [1] DEBUG - UniqueValueRenderer Preview Set ENDED:43
+2011-07-19 18:57:15,957 [1] DEBUG - 個別値表示更新処理終了
+2011-07-19 18:57:18,609 [1] DEBUG - buttonOKApply_Click Main Proc STARTED
+2011-07-19 18:57:18,662 [1] DEBUG - axMapControl1, TOC update STARTED
+2011-07-19 18:57:18,666 [1] DEBUG - ContentsChanged
+2011-07-19 18:57:18,710 [1] DEBUG - axPageLayoutControl1.Refresh ENDED
+2011-07-19 18:57:18,711 [1] DEBUG - UsingMemorySize Before GC :1604396 byte
+2011-07-19 18:57:18,746 [1] DEBUG - UsingMemorySize After GC :1159180 byte
+2011-07-19 18:57:18,746 [1] DEBUG - OK or Apply ENDED
+2011-07-19 18:57:18,749 [1] DEBUG - シンボル設定画面終了
+2011-07-19 18:57:18,805 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 18:57:18,808 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 18:57:19,389 [1] DEBUG - ItemDraw
+2011-07-19 18:57:19,539 [1] DEBUG - ItemDraw
+2011-07-19 18:57:19,585 [1] DEBUG - ItemDraw
+2011-07-19 18:57:19,586 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2011-07-19 18:57:19,595 [1] DEBUG - ItemDraw
+2011-07-19 18:57:19,596 [1] DEBUG - ItemDraw
+2011-07-19 18:57:19,601 [1] DEBUG - ItemDraw
+2011-07-19 18:57:19,604 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 18:57:19,621 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 18:58:07,247 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 19:10:41,695 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 19:10:47,800 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 19:10:47,804 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 19:10:48,276 [1] DEBUG - ItemDraw
+2011-07-19 19:10:48,430 [1] DEBUG - ItemDraw
+2011-07-19 19:10:48,477 [1] DEBUG - ItemDraw
+2011-07-19 19:10:48,478 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2011-07-19 19:10:48,492 [1] DEBUG - ItemDraw
+2011-07-19 19:10:48,495 [1] DEBUG - ItemDraw
+2011-07-19 19:10:48,495 [1] DEBUG - ItemDraw
+2011-07-19 19:10:48,497 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 19:10:48,535 [1] DEBUG - ItemDraw
+2011-07-19 19:10:48,559 [1] DEBUG - ItemDraw
+2011-07-19 19:10:48,561 [1] DEBUG - ItemDraw
+2011-07-19 19:10:48,561 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-19 19:10:48,573 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 19:10:52,324 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 19:10:52,326 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 19:10:52,782 [1] DEBUG - ItemDraw
+2011-07-19 19:10:52,930 [1] DEBUG - ItemDraw
+2011-07-19 19:10:52,977 [1] DEBUG - ItemDraw
+2011-07-19 19:10:52,978 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2011-07-19 19:10:52,990 [1] DEBUG - ItemDraw
+2011-07-19 19:10:52,990 [1] DEBUG - ItemDraw
+2011-07-19 19:10:52,991 [1] DEBUG - ItemDraw
+2011-07-19 19:10:52,992 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 19:10:53,029 [1] DEBUG - ItemDraw
+2011-07-19 19:10:53,054 [1] DEBUG - ItemDraw
+2011-07-19 19:10:53,056 [1] DEBUG - ItemDraw
+2011-07-19 19:10:53,056 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-19 19:10:53,087 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 19:10:57,418 [1] DEBUG - PageLayout CurrentTool Inde x= 0
+2011-07-19 19:11:04,410 [1] DEBUG - PageLayout CurrentTool Inde x= 0
+2011-07-19 19:11:11,012 [1] DEBUG - PageLayout CurrentTool Inde x= 0
+2011-07-19 19:11:15,062 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-19 19:11:15,075 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-19 19:11:15,525 [1] DEBUG - ItemDraw
+2011-07-19 19:11:15,668 [1] DEBUG - ItemDraw
+2011-07-19 19:11:15,710 [1] DEBUG - ItemDraw
+2011-07-19 19:11:15,713 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2011-07-19 19:11:15,726 [1] DEBUG - ItemDraw
+2011-07-19 19:11:15,728 [1] DEBUG - ItemDraw
+2011-07-19 19:11:15,728 [1] DEBUG - ItemDraw
+2011-07-19 19:11:15,729 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-19 19:11:15,768 [1] DEBUG - ItemDraw
+2011-07-19 19:11:15,792 [1] DEBUG - ItemDraw
+2011-07-19 19:11:15,793 [1] DEBUG - ItemDraw
+2011-07-19 19:11:15,793 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-19 19:11:15,808 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-19 19:11:25,139 [1] INFO  - GISLight10終了
+2011-07-20 16:02:19,725 [1] INFO  - GISLight10開始
+2011-07-20 16:02:23,136 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-20 16:02:23,151 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-20 16:02:23,169 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-20 16:02:23,179 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-20 16:02:23,186 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:02:53,622 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:02:54,361 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:02:56,358 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:02:57,934 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:02:57,944 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:03:01,495 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-20 16:03:01,497 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-20 16:03:01,499 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-20 16:03:01,501 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-20 16:03:01,510 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:03:02,165 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:03:02,317 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:03:02,416 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:03:03,651 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:03:03,702 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-20 16:03:03,703 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-20 16:03:03,704 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-20 16:03:03,707 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-20 16:03:03,710 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:03:07,562 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:03:15,256 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-20 16:03:15,259 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-20 16:03:20,556 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2011-07-20 16:03:20,571 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-20 16:03:20,626 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-20 16:03:20,810 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:03:20,949 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-20 16:03:20,951 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-20 16:03:21,405 [1] DEBUG - ItemDraw
+2011-07-20 16:03:21,533 [1] DEBUG - ItemDraw
+2011-07-20 16:03:21,578 [1] DEBUG - ItemDraw
+2011-07-20 16:03:21,579 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2011-07-20 16:03:21,588 [1] DEBUG - ItemDraw
+2011-07-20 16:03:21,589 [1] DEBUG - ItemDraw
+2011-07-20 16:03:21,590 [1] DEBUG - ItemDraw
+2011-07-20 16:03:21,590 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-20 16:03:21,619 [1] DEBUG - ItemDraw
+2011-07-20 16:03:21,640 [1] DEBUG - ItemDraw
+2011-07-20 16:03:21,641 [1] DEBUG - ItemDraw
+2011-07-20 16:03:21,642 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-20 16:03:21,651 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:03:24,538 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-20 16:03:24,541 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-20 16:03:25,030 [1] DEBUG - ItemDraw
+2011-07-20 16:03:25,156 [1] DEBUG - ItemDraw
+2011-07-20 16:03:25,192 [1] DEBUG - ItemDraw
+2011-07-20 16:03:25,194 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2011-07-20 16:03:25,216 [1] DEBUG - ItemDraw
+2011-07-20 16:03:25,217 [1] DEBUG - ItemDraw
+2011-07-20 16:03:25,217 [1] DEBUG - ItemDraw
+2011-07-20 16:03:25,218 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-20 16:03:25,249 [1] DEBUG - ItemDraw
+2011-07-20 16:03:25,274 [1] DEBUG - ItemDraw
+2011-07-20 16:03:25,274 [1] DEBUG - ItemDraw
+2011-07-20 16:03:25,274 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-20 16:03:25,282 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:03:30,360 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-20 16:03:30,362 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-20 16:03:30,815 [1] DEBUG - ItemDraw
+2011-07-20 16:03:30,958 [1] DEBUG - ItemDraw
+2011-07-20 16:03:31,005 [1] DEBUG - ItemDraw
+2011-07-20 16:03:31,006 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2011-07-20 16:03:31,016 [1] DEBUG - ItemDraw
+2011-07-20 16:03:31,017 [1] DEBUG - ItemDraw
+2011-07-20 16:03:31,018 [1] DEBUG - ItemDraw
+2011-07-20 16:03:31,019 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-20 16:03:31,049 [1] DEBUG - ItemDraw
+2011-07-20 16:03:31,077 [1] DEBUG - ItemDraw
+2011-07-20 16:03:31,078 [1] DEBUG - ItemDraw
+2011-07-20 16:03:31,078 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-20 16:03:31,084 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:03:33,427 [1] DEBUG - シンボル設定表示開始
+2011-07-20 16:03:33,747 [1] DEBUG - シンボル設定初期表示処理開始
+2011-07-20 16:03:35,017 [1] ERROR - The specified filename is invalid
+2011-07-20 16:03:35,036 [1] ERROR -    場所 ESRI.ArcGIS.Controls.SymbologyControlClass.ISymbologyControl_LoadStyleFile(String fileName)
+   場所 ESRIJapan.GISLight10.Ui.FormSymbolSettings.GetColorRampFromStyleGallery(String symbolName) 場所 C:\work\GISLight10\Ui\FormSymbolSettings.cs:行 4749
+2011-07-20 16:03:35,127 [1] DEBUG - シンボル設定初期表示処理終了
+2011-07-20 16:03:37,290 [1] DEBUG - buttonOpenImageFile_Click UsingMemorySize Before GC :2388120 byte
+2011-07-20 16:03:37,326 [1] DEBUG - buttonOpenImageFile_Click UsingMemorySize After  GC :1161608 byte
+2011-07-20 16:03:39,823 [1] DEBUG - OpenColorRamp: IStyleGalleryItem Release After This ... 
+2011-07-20 16:03:39,886 [1] INFO  - StyleForm UsingMemorySize Before GC :1498024 byte
+2011-07-20 16:03:39,890 [1] INFO  - StyleForm UsingMemorySize After GC :1163184 byte
+2011-07-20 16:03:39,891 [1] DEBUG - OpenColorRamp: IStyleGalleryItem Release Ended
+2011-07-20 16:03:39,891 [1] DEBUG - End OF buttonOpenImageFile_Click UsingMemorySize Before GC :1179568 byte
+2011-07-20 16:03:39,895 [1] DEBUG - End Of buttonOpenImageFile_Click UsingMemorySize After  GC :1161672 byte
+2011-07-20 16:03:39,923 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:03:40,805 [1] DEBUG - buttonOpenSyleGallery_Click UsingMemorySize Before GC :1259976 byte
+2011-07-20 16:03:40,812 [1] DEBUG - buttonOpenSyleGallery_Click UsingMemorySize After  GC :1164152 byte
+2011-07-20 16:04:04,027 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:04:08,228 [1] INFO  - StyleForm UsingMemorySize Before GC :1757336 byte
+2011-07-20 16:04:08,238 [1] INFO  - StyleForm UsingMemorySize After GC :1247156 byte
+2011-07-20 16:04:08,239 [1] DEBUG - End Of buttonOpenSyleGallery_Click UsingMemorySize Before GC :1255348 byte
+2011-07-20 16:04:08,240 [1] DEBUG - End Of buttonOpenSyleGallery_Click UsingMemorySize After  GC :1245656 byte
+2011-07-20 16:04:08,282 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:04:09,192 [1] DEBUG - シンボル設定画面終了
+2011-07-20 16:04:09,231 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:04:12,129 [1] DEBUG - PageLayout CurrentTool Inde x= 0
+2011-07-20 16:04:16,382 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2011-07-20 16:04:16,387 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2011-07-20 16:04:16,860 [1] DEBUG - ItemDraw
+2011-07-20 16:04:17,028 [1] DEBUG - ItemDraw
+2011-07-20 16:04:17,077 [1] DEBUG - ItemDraw
+2011-07-20 16:04:17,078 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2011-07-20 16:04:17,088 [1] DEBUG - ItemDraw
+2011-07-20 16:04:17,092 [1] DEBUG - ItemDraw
+2011-07-20 16:04:17,093 [1] DEBUG - ItemDraw
+2011-07-20 16:04:17,094 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2011-07-20 16:04:17,135 [1] DEBUG - ItemDraw
+2011-07-20 16:04:17,160 [1] DEBUG - ItemDraw
+2011-07-20 16:04:17,161 [1] DEBUG - ItemDraw
+2011-07-20 16:04:17,161 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2011-07-20 16:04:17,188 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:04:18,408 [1] INFO  - バージョン情報フォームの起動
+2011-07-20 16:04:20,044 [1] INFO  - バージョン情報フォームの終了
+2011-07-20 16:04:20,080 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:04:21,153 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:04:22,477 [1] INFO  - バージョン情報フォームの起動
+2011-07-20 16:04:23,714 [1] INFO  - バージョン情報フォームの終了
+2011-07-20 16:04:23,741 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:04:24,402 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2011-07-20 16:04:25,377 [1] INFO  - GISLight10終了
+2012-05-15 11:28:51,136 [1] INFO  - GISLight10開始
+2012-05-15 11:28:51,870 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2012-05-15 11:28:51,870 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2012-05-15 11:28:51,885 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2012-05-15 11:28:51,885 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2012-05-15 11:28:51,901 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2012-05-15 11:29:01,308 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2012-05-15 11:29:01,308 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2012-05-15 11:29:01,620 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2012-05-15 11:29:03,960 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2012-05-15 11:29:03,975 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2012-05-15 11:29:04,006 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2012-05-15 11:29:15,207 [3] DEBUG - Begin export.StartExporting
+2012-05-15 11:29:15,223 [3] DEBUG - Begin activeView.Output
+2012-05-15 11:29:15,223 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2012-05-15 11:29:15,239 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2012-05-15 11:29:15,551 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2012-05-15 11:29:17,766 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2012-05-15 11:29:17,781 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2012-05-15 11:29:17,781 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2012-05-15 11:29:17,797 [3] DEBUG - Begin export.FinishExporting
+2012-05-15 11:29:17,859 [3] DEBUG - Begin export.Cleanup
+2012-05-15 11:29:17,859 [7] INFO  - エクスポートマップ：正常終了しました。
+2012-05-15 11:29:17,937 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2012-05-15 11:30:41,819 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2012-05-15 11:31:10,991 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2012-05-15 11:32:39,271 [1] INFO  - GISLight10終了
+2012-05-15 14:49:02,161 [1] INFO  - GISLight10開始
+2012-05-15 14:49:02,925 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2012-05-15 14:49:02,925 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2012-05-15 14:49:02,941 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2012-05-15 14:49:02,941 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2012-05-15 14:49:02,956 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2012-05-15 14:49:10,631 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2012-05-15 14:49:10,631 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2012-05-15 14:49:11,099 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2012-05-15 14:49:27,495 [1] DEBUG - ContentsChanged
+2012-05-15 14:49:27,495 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2012-05-15 14:49:27,511 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2012-05-15 14:49:27,854 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2012-05-15 14:49:30,069 [1] DEBUG - ContentsChanged
+2012-05-15 14:49:30,085 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2012-05-15 14:49:30,085 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2012-05-15 14:49:30,443 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2012-05-15 14:49:32,674 [1] DEBUG - ContentsChanged
+2012-05-15 14:49:32,674 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2012-05-15 14:49:32,690 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2012-05-15 14:49:33,002 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2012-05-15 14:49:37,651 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2012-05-15 14:49:37,651 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2012-05-15 14:49:37,994 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2012-05-15 14:49:40,256 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2012-05-15 14:49:40,256 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2012-05-15 14:49:40,271 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2012-05-15 14:50:26,791 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2012-05-15 14:50:26,806 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2012-05-15 14:50:27,196 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2012-05-15 14:50:29,489 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2012-05-15 14:50:29,505 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2012-05-15 14:50:29,536 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2012-05-15 14:50:54,730 [1] DEBUG - ContentsChanged
+2012-05-15 14:50:54,746 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2012-05-15 14:50:54,762 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2012-05-15 14:50:55,105 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2012-05-15 14:50:57,382 [1] DEBUG - ContentsChanged
+2012-05-15 14:50:57,382 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2012-05-15 14:50:57,398 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2012-05-15 14:50:57,741 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2012-05-15 14:50:59,988 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2012-05-15 14:51:00,003 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2012-05-15 14:51:00,019 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2012-05-15 14:51:01,095 [1] DEBUG - ContentsChanged
+2012-05-15 14:51:01,111 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2012-05-15 14:51:01,111 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2012-05-15 14:51:01,438 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2012-05-15 14:51:13,154 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2012-05-15 14:51:13,154 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2012-05-15 14:51:13,528 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2012-05-15 14:51:15,822 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2012-05-15 14:51:15,837 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2012-05-15 14:51:15,853 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2012-05-15 14:51:25,837 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2012-05-15 14:51:27,678 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2012-05-15 14:51:27,834 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2012-05-15 14:51:27,912 [1] DEBUG - axMapControl1_OnAfterDraw 8
+2012-05-15 14:51:27,912 [1] DEBUG - axMapControl1_OnAfterDraw 4
+2012-05-15 14:51:27,927 [1] DEBUG - axMapControl1_OnAfterDraw 32
+2012-05-15 14:51:36,788 [1] DEBUG - axMapControl1_OnAfterDraw 64
+2012-05-15 14:51:36,804 [1] DEBUG - axMapControl1_OnAfterDraw 1
+2012-05-15 14:51:37,131 [1] DEBUG - axMapControl1_OnAfterDraw 2
+2012-05-15 14:51:43,402 [1] INFO  - GISLight10終了
+2020-03-17 20:02:46,310 [1] INFO  - GISLight Ver10開始
+2020-03-17 20:02:46,342 [1] ERROR - ファイル 'F:\EJ_SVN\ESRIJapan\GISLight10\bin\Release\MidoriGISLightV2Settings.xml' が見つかりませんでした。
+2020-03-17 20:02:46,357 [1] ERROR -    場所 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   場所 System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   場所 System.IO.File.Copy(String sourceFileName, String destFileName)
+   場所 ESRIJapan.GISLight10.Common.ApplicationInitializer.CreateUserSettings() 場所 F:\EJ_SVN\ESRIJapan\GISLight10\Common\ApplicationInitializer.cs:行 53
+   場所 ESRIJapan.GISLight10.Ui.MainForm.MainForm_Load(Object sender, EventArgs e) 場所 F:\EJ_SVN\ESRIJapan\GISLight10\Ui\MainForm.cs:行 1813
+2020-03-17 20:03:21,414 [1] INFO  - GISLight Ver10終了
+2020-03-17 20:03:21,524 [1] FATAL - System.Windows.Forms
+2020-03-17 20:03:21,524 [1] FATAL - 破棄されたオブジェクトにアクセスできません。
+オブジェクト名 'MainForm' です。
+2020-03-17 20:03:21,524 [1] FATAL -    場所 System.Windows.Forms.Control.CreateHandle()
+   場所 System.Windows.Forms.Form.CreateHandle()
+   場所 System.Windows.Forms.Control.get_Handle()
+   場所 System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   場所 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   場所 System.Windows.Forms.Control.set_Visible(Boolean value)
+   場所 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   場所 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   場所 System.Windows.Forms.Application.Run(Form mainForm)
+   場所 ESRIJapan.GISLight10.Program.Main(String[] args) 場所 F:\EJ_SVN\ESRIJapan\GISLight10\Program.cs:行 49
+2020-03-31 15:24:38,647 [1] INFO  - GISLight Ver10開始
+2020-03-31 15:24:41,540 [1] INFO  - GISLight Ver10起動
+2020-03-31 15:29:35,560 [1] DEBUG - 属性テーブル表示開始
+2020-03-31 15:29:38,986 [1] DEBUG - 属性テーブル表示終了
+2020-03-31 16:20:31,898 [1] ERROR - リソース 'FieldCalculatorCommand.bmp' がクラス 'ESRIJapan.GISLight10.EngineCommand.FieldCalculatorCommand' に見つかりません。    場所 System.Drawing.Bitmap..ctor(Type type, String resource)
+   場所 ESRIJapan.GISLight10.EngineCommand.FieldCalculatorCommand..ctor() 場所 F:\EJ_SVN\ESRIJapan\GISLight10\EngineCommand\FieldCalculatorCommand.cs:行 38
+2020-03-31 16:27:47,538 [1] DEBUG - シンボル設定表示開始
+2020-03-31 16:27:47,736 [1] DEBUG - シンボル設定初期表示処理開始
+2020-03-31 16:27:49,017 [1] DEBUG - シンボル設定初期表示処理終了
+2020-03-31 16:27:51,833 [1] DEBUG - シンボル設定画面終了
+2020-03-31 16:27:56,383 [1] DEBUG - シンボル設定表示開始
+2020-03-31 16:27:56,522 [1] DEBUG - シンボル設定初期表示処理開始
+2020-03-31 16:27:57,390 [1] DEBUG - シンボル設定初期表示処理終了
+2020-03-31 16:28:30,343 [1] DEBUG - シンボル設定画面終了
