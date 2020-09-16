@@ -49,6 +49,12 @@ Maps App GISLight10 は、ArcObjects SDK for .NETとWindows フォームを使�
 * [ArcObjects .NET Samples repo]("https://github.com/esri/arcobjects-sdk-community-samples")
 
 
+## 免責事項
+
+* 本ツールはサンプルとして提供しているものであり、動作に関する保証、および製品ライフサイクルに従った Esri 製品サポート サービスは提供しておりません。
+* 本ツールによって生じた損害等の一切の責任を負いかねますのでご了承ください。
+* 弊社で提供しているEsri 製品サポートサービスでは、本ツールに関しての Ｑ＆Ａ サポートの受付を行っておりませんので、予めご了承の上、ご利用ください。詳細は [ESRIジャパン GitHub アカウントにおけるオープンソースへの貢献について]("https://github.com/EsriJapan/contributing") をご参照ください。
+
 ## ライセンス
 Copyright 2011-2020 Esri Japan Corporation.
 
